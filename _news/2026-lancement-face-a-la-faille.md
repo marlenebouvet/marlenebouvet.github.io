@@ -9,7 +9,7 @@ show: true
 Lancement de l'**enquête sociologique « Face à la faille / Humans Behind Vulnerability Research »**, destinée aux **chercheuses et chercheurs de vulnérabilités informatiques**, de tous profils et de toutes nationalités.
 
 <style>
-  .cyber-link { display: inline-block; background: #0a0f0a; color: #46ff7a; font-family: "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace; font-weight: 800; font-size: 1.9em; line-height: 1.2; padding: 0.4em 0.9em 0.4em 0.7em; border-left: 6px solid #46ff7a; border-radius: 4px; text-decoration: none !important; transition: background .15s ease, color .15s ease; }
+  .cyber-link { display: inline-block; background: #0a0f0a; color: #46ff7a; font-family: "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace; font-weight: 800; font-size: 1.35em; line-height: 1.2; padding: 0.4em 0.9em 0.4em 0.7em; border-left: 5px solid #46ff7a; border-radius: 4px; text-decoration: none !important; transition: background .15s ease, color .15s ease; }
   .cyber-link:hover, .cyber-link:focus-visible { background: #46ff7a; color: #0a0f0a; text-decoration: none !important; }
   .cyber-arrows { margin-right: 0.55em; letter-spacing: -0.12em; }
   .cyber-arrows span:nth-child(1) { opacity: 0.35; }
