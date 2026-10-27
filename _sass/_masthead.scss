@@ -57,48 +57,51 @@
   }
 }
 
-/* Top bar: bolder, darker, double rule (red + thin dark), small caps */
+/* Top bar: terracotta band, white bold small caps */
 .masthead {
-  border-bottom: 4px solid #a11828;
+  background: #b04e32;
+  border-bottom: 0;
+}
 
-  &::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -9px;
-    height: 1px;
-    background: #10151a;
-  }
+.masthead .greedy-nav {
+  background: transparent;
 }
 
 .masthead .greedy-nav a {
   margin: 0 0.5rem;
-  color: #10151a;
+  color: #fff;
   font-weight: 800;
   font-variant-caps: small-caps;
-  font-size: 0.93em;
+  font-size: 1.2em;
   letter-spacing: 0;
-  background: linear-gradient(#a11828, #a11828) no-repeat 0 100% / 0 3px;
-  transition: color 0.15s ease, background-size 0.25s ease;
+  background: linear-gradient(#fff, #fff) no-repeat 0 100% / 0 3px;
+  transition: background-size 0.25s ease;
 
   &:hover,
   &.is-active {
-    color: #a11828;
+    color: #fff;
     background-size: 100% 3px;
   }
 }
 
 .masthead .greedy-nav .masthead__menu-item--lg a {
   margin-left: 0;
-  color: #a11828;
+  color: #fff;
   font-weight: 900;
   font-variant-caps: normal;
   font-size: 1.12em;
-  letter-spacing: 0;
   background-size: 0 3px;
 
   &:hover {
-    color: #10151a;
+    color: #fff;
   }
+}
+
+.masthead .greedy-nav button {
+  background-color: #8f3b24;
+}
+
+.masthead .greedy-nav .hidden-links {
+  background: #b04e32;
+  border: 0;
 }
