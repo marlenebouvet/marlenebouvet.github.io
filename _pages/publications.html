@@ -26,7 +26,7 @@ author_profile: true
       {% endunless %}
       {% assign toc_title = post.title | replace: "« ", "“" | replace: " »", "”" | replace: "«", "“" | replace: "»", "”" %}
       {% assign toc_icon = post.toc_icon | default: post.image %}
-      <li style="font-size: 1.1em; font-weight: bold; display: flex; align-items: flex-start; gap: 0.8em; margin: 1em 0; padding: 0; line-height: 1.35">
+      <li style="font-size: 1.1em; font-weight: bold; display: flex; align-items: flex-start; gap: 0.8em; margin: 0.5em 0; padding: 0; line-height: 1.35">
         <span style="flex: 0 0 2.4em; width: 2.4em">{% if toc_icon %}<img src="{{ toc_icon | replace: '../images/', '/images/' }}" alt="" style="display: block; width: 100%; height: auto; margin-top: 0.1em">{% endif %}</span>
         <a href="#pub-{{ post.slug }}">{% if post.category == 'books' %}<em>{{ toc_title }}</em>{% else %}«&nbsp;{{ toc_title }}&nbsp;»{% endif %}{% if post.toc_ref %}, {{ post.toc_ref | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}</a>
       </li>
