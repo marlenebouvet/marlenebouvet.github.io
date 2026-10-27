@@ -260,11 +260,11 @@
 }
 
 
-/* Left column: text at the same size as the news titles (1.4rem), column a bit wider */
+/* Left column: text a bit larger than body text (1.25rem vs 1.12em), narrower column */
 @media screen and (min-width: 1024px) {
   .sidebar {
-    width: 290px !important;
-    max-width: 290px !important;
+    width: 270px !important;
+    max-width: 270px !important;
     padding-right: 16px;
     box-sizing: border-box;
   }
@@ -274,17 +274,17 @@
   }
 
   .sidebar .author__name {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     line-height: 1.2;
   }
 
   .sidebar .author__bio {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     line-height: 1.25;
   }
 
   .sidebar .author__urls li {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     line-height: 1.35;
   }
 
@@ -292,7 +292,7 @@
   .archive {
     float: none !important;
     width: auto !important;
-    margin-left: 320px !important;
+    margin-left: 300px !important;
     margin-right: 1.5em !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
