@@ -7,12 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
-***Docteure en sociologie.***
+<style>
+  .page p, .page li { font-size: 1.12em; }
+</style>
 
-- ***[Post-doctorante](https://sociosante.hypotheses.org/8067) au sein de la chaire « Soins algorithmiques » (AlgoCare) - Laboratoire PACTE - Université Grenoble Alpes***
-- ***Chargée d'enquête pour l'équipe de l'ANR REV (Recherche et Exploitation des Vulnérabilités) - Volet sociologique du projet, présenté ici en [anglais](https://rev.s3.eurecom.fr/) et [français](https://www.pepr-cybersecurite.fr/projet/rev/)***
-- ***Associée au Centre Max Weber - ENS Lyon - Equipe Dispositions, Pouvoirs, Cultures et Socialisations***
-- ***Enseignante vacataire à l'Université Paris Saclay, Master Santé publique***
+**Docteure en sociologie.**
+
+- **[Post-doctorante](https://sociosante.hypotheses.org/8067) au sein de la chaire « Soins algorithmiques » (AlgoCare) - Laboratoire PACTE - Université Grenoble Alpes**
+- **Chargée d'enquête pour l'équipe de l'ANR REV (Recherche et Exploitation des Vulnérabilités) - Volet sociologique du projet, présenté ici en [anglais](https://rev.s3.eurecom.fr/) et [français](https://www.pepr-cybersecurite.fr/projet/rev/)**
+- **Associée au Centre Max Weber - ENS Lyon - Equipe Dispositions, Pouvoirs, Cultures et Socialisations**
+- **Enseignante vacataire à l'Université Paris Saclay, Master Santé publique**
 
 
 <h2 id="themes-de-recherche" class="page__title" style="margin-top: 1.6em; color: #a11828; text-align: center; font-size: 2.4em; margin-bottom: 0.8em">Thèmes de recherche</h2>
