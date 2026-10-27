@@ -6,17 +6,12 @@ logo: /images/logos/face-a-la-faille.png
 logo_alt: "Humans Behind Vulnerability Research - Call for participation"
 show: true
 ---
-**« Face à la faille. Qui sont les chercheurs et chercheuses de vulnérabilités ? »** / ***« Humans Behind Vulnerability Research. Practices, Trajectories and Norms »***
+**Version française** : « Face à la faille. Qui sont les chercheurs et chercheuses de vulnérabilités ? »
 
-Lancement de l'**enquête sociologique « Face à la faille / Humans Behind Vulnerability Research »**, destinée aux **chercheuses et chercheurs de vulnérabilités informatiques**, de tous profils et de toutes nationalités.
+**English version**: « Humans Behind Vulnerability Research. Practices, Trajectories and Norms »
 
-- Documenter les pratiques, au-delà des stéréotypes
-- Anonymat complet, questionnaire accessible via Tor
-- Aucun jugement sur vos pratiques
-- 15 minutes
+<img src="/images/logos/face-a-la-faille.png" alt="Humans Behind Vulnerability Research - Call for participation" style="display: block; width: 100%; max-width: 560px; height: auto; margin: 1.2em 0">
 
-En plus : possibilité de partager son expérience, de façon confidentielle, lors d'un **entretien libre avec une sociologue**.
-
-Financement public : ANR France 2030 (ANR-22-PECY-0009). Contact : humans.of.vulnresearch@proton.me
+<p style="text-align: left">Financement public : ANR France 2030 (ANR-22-PECY-0009). Contact : humans.of.vulnresearch@proton.me</p>
 
 [Aller au questionnaire](https://t.co/8TqR9BdYpx)

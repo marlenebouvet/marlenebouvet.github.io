@@ -258,3 +258,43 @@
     }
   }
 }
+
+
+/* Left column: text and icons tripled on wide screens (wider column, content shifted) */
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    width: 400px !important;
+    max-width: 400px !important;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .sidebar .author__avatar img {
+    max-width: 200px;
+  }
+
+  .sidebar .author__name {
+    font-size: 3em;
+    line-height: 1.1;
+  }
+
+  .sidebar .author__bio {
+    font-size: 2.25em;
+    line-height: 1.2;
+  }
+
+  .sidebar .author__urls li {
+    font-size: 2.25em;
+    line-height: 1.25;
+  }
+
+  .page,
+  .archive {
+    float: none !important;
+    width: auto !important;
+    margin-left: 440px !important;
+    margin-right: 1.5em !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
