@@ -9,6 +9,39 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 
 {% endif %}
+{% include base_path %}
+{% assign mois = "janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre" | split: "," %}
+
+<p style="font-size: 1.1em; font-style: italic"><strong>Cliquer pour accéder aux résumés et aux informations pratiques</strong></p>
+{% if site.talk_category %}
+  {% for category in site.talk_category %}
+    {% assign title_shown = false %}
+    {% for post in site.talks reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h3 style="margin-bottom: 0.2em">{{ category[1].title }}</h3>
+        <ul style="margin-top: 0">
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% assign toc_title = post.title | strip_newlines | strip %}
+      {% assign toc_first = toc_title | slice: 0, 1 %}
+      {% assign toc_last = toc_title | slice: -1, 1 %}
+      {% if toc_first == "«" and toc_last == "»" %}
+        {% assign toc_len = toc_title.size | minus: 2 %}
+        {% assign toc_title = toc_title | slice: 1, toc_len | strip %}
+      {% endif %}
+      {% assign toc_title = toc_title | replace: "« ", "“" | replace: " »", "”" | replace: "«", "“" | replace: "»", "”" %}
+      {% assign toc_month = post.date | date: "%-m" | minus: 1 %}
+      {% assign toc_where = post.venue | default: post.type %}
+      <li style="font-size: 1.1em; font-weight: bold"><a href="{{ base_path }}{{ post.url }}">«&nbsp;{{ toc_title }}&nbsp;»{% if toc_where %}, {{ toc_where }}{% endif %}, {{ mois[toc_month] }} {{ post.date | date: "%Y" }}</a></li>
+    {% endfor %}
+    {% if title_shown %}</ul>{% endif %}
+  {% endfor %}
+{% endif %}
+<hr />
+
 {% if site.talk_category %}
   {% for category in site.talk_category %}
     {% assign title_shown = false %}
