@@ -9,12 +9,12 @@ redirect_from:
 ---
 <style>
   .page p, .page li { font-size: 1.12em; }
-  .specialites { list-style: none; margin: 0.4em 0 0 0; padding: 0; }
-  .specialites li { position: relative; margin: 0.45em 0; padding-left: 6.1rem; line-height: 1.45; font-weight: 700; }
-  .specialites li::before { content: "\2192"; position: absolute; left: 4.3rem; top: -0.08em; color: #a11828; font-weight: 800; font-size: 1.15em; }
+  .specialites { list-style: none; margin: 0.4em 0 0 4.2rem; padding: 0; column-count: 2; column-gap: 2.2em; }
+  .specialites li { position: relative; margin: 0; padding: 0.22em 0 0.22em 1.7em; line-height: 1.45; font-weight: 700; break-inside: avoid; }
+  .specialites li::before { content: "\2192"; position: absolute; left: 0; top: 0.14em; color: #a11828; font-weight: 800; font-size: 1.15em; }
   .methodes { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1em; margin: 1.2em 0 1.5em 0; }
-  .methode { border: 2px solid #111; padding: 0.9em 0.85em 1em; display: flex; flex-direction: column; gap: 0.7em; font-size: 1.05em; line-height: 1.35; }
-  .methode img { width: 3.3em; height: 3.3em; }
+  .methode { border: 2px solid #111; padding: 1em 0.85em 0.9em; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0.8em; font-size: 1.05em; line-height: 1.35; }
+  .methode img { width: 3.6em; height: 3.6em; margin-top: auto; opacity: 0.35; }
   .methode b { display: block; font-size: 1.08em; }
 </style>
 
@@ -67,9 +67,9 @@ J'ai également conduit des recherches, en Master, en sociologie de la religion 
 <h2 id="methodes" class="page__title" style="margin-top: 1.6em; color: #a11828; text-align: center; font-size: 2.4em; margin-bottom: 0.8em">Méthodes</h2>
 
 <div class="methodes">
-  <div class="methode"><img src="/images/icons/methode-ethnographie.svg" alt=""><div><b>Immersion ethnographique</b>monographie, observations, comparaison</div></div>
-  <div class="methode"><img src="/images/icons/methode-entretiens.svg" alt=""><div><b>Entretiens</b>semi-dirigés, libres, collectifs. Face à face, visio, par téléphone.</div></div>
-  <div class="methode"><img src="/images/icons/methode-questionnaires.svg" alt=""><div><b>Questionnaires</b></div></div>
-  <div class="methode"><img src="/images/icons/methode-donnees.svg" alt=""><div><b>Exploitation secondaire de bases de données</b>(dossiers administratifs)</div></div>
-  <div class="methode"><img src="/images/icons/methode-corpus.svg" alt=""><div><b>Analyses de corpus</b>(articles de presse, articles scientifiques). <b style="display: inline">Synthèses chiffrées.</b></div></div>
+  <div class="methode"><div><b>Immersion ethnographique</b>monographie, observations, comparaison</div><img src="/images/icons/methode-ethnographie.svg" alt=""></div>
+  <div class="methode"><div><b>Entretiens</b>semi-dirigés, libres, collectifs. Face à face, visio, par téléphone.</div><img src="/images/icons/methode-entretiens.svg" alt=""></div>
+  <div class="methode"><div><b>Questionnaires</b></div><img src="/images/icons/methode-questionnaires.svg" alt=""></div>
+  <div class="methode"><div><b>Exploitation secondaire de bases de données</b>(dossiers administratifs)</div><img src="/images/icons/methode-donnees.svg" alt=""></div>
+  <div class="methode"><div><b>Analyses de corpus</b>(articles de presse, articles scientifiques). <b style="display: inline">Synthèses chiffrées.</b></div><img src="/images/icons/methode-corpus.svg" alt=""></div>
 </div>
