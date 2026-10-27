@@ -3,7 +3,7 @@
   <rect x="11" y="11" width="98" height="98" rx="12" fill="none" stroke="#fff" stroke-width="2.5"/>
   <g transform="translate(0 -3)">
     <!-- pièces : plafond, sol, murs, linteau de la porte -->
-    <path d="M18 28h84M18 100h84M18 28v72M102 28v72M60 28v18" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <path d="M18 28h84M18 100h84M18 28v72M102 28v72M60 28v10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
     <!-- bureau -->
     <path d="M20 82h28" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/>
     <path d="M23.500 82v18M44.500 82v18" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
@@ -17,9 +17,8 @@
     <path d="M80.500 100v-7a7.500 7.500 0 0 1 15 0v7z" fill="#fff"/>
     <!-- la femme (en pantalon) dans l'encadrement de la porte -->
     <circle cx="60" cy="60" r="6.500" fill="#fff"/>
-    <circle cx="55.500" cy="55" r="3.600" fill="#fff"/>
+    <circle cx="60" cy="52.500" r="3.800" fill="#fff"/>
     <path d="M51.500 72c3-3 14-3 17 0l-1 17H52.500z" fill="#fff"/>
     <path d="M55 87v13M65 87v13" stroke="#fff" stroke-width="6.500" stroke-linecap="round"/>
-    <path d="M68 74l6 5" stroke="#fff" stroke-width="3.200" stroke-linecap="round"/>
   </g>
 </svg>

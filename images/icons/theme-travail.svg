@@ -13,13 +13,14 @@
     <circle cx="-2.500" cy="-4" r="0.900" fill="#5a1a22"/><circle cx="2.500" cy="-4" r="0.900" fill="#5a1a22"/>
   </g>
 
-  <!-- psychiatre : blouse blanche, lunettes, psi -->
+  <!-- psychiatre : blouse blanche, cheveux longs, lunettes -->
   <g transform="translate(85 36) scale(1.2)">
+    <path d="M-8.800 -5c-0.500-7.500 3-11 8.800-11S9.300 -12.500 8.800 -5v13h-3.200V-3h-11.200v11h-3.200z" fill="#5a3a2e"/>
     <path d="M-14 18v-5c0-6 5-10 10-11h8c5 1 10 5 10 11v5z" fill="#fff"/>
-    <path d="M-3.800 5.500v3a3.800 3.800 0 0 0 7.600 0v-3M0 4.500v11" fill="none" stroke="#a11828" stroke-width="1.700" stroke-linecap="round"/>
+    <path d="M-3 2l3 5 3-5" fill="none" stroke="#a11828" stroke-width="1.500" stroke-linejoin="round"/>
     <circle cx="0" cy="-6" r="6.800" fill="#ffe0cf"/>
-    <path d="M-7.200 -7c0-4 3-6.500 7.200-6.500S7.200 -11 7.200 -7c-2-1.800-4.400-2.600-7.200-2.600S-5.200 -8.800 -7.200 -7z" fill="#5a3a2e"/>
-    <g fill="none" stroke="#a11828" stroke-width="1.300"><circle cx="-2.800" cy="-5" r="2.300"/><circle cx="2.800" cy="-5" r="2.300"/><path d="M-0.5 -5h1"/></g>
+    <path d="M-7 -7.500c1.500-4 4-5.500 7-5.500s5.500 1.500 7 5.500c-2.200-1.600-4.500-2.200-7-2.200s-4.800 0.600-7 2.200z" fill="#5a3a2e"/>
+    <g fill="none" stroke="#a11828" stroke-width="1.300"><circle cx="-2.800" cy="-5" r="2.300"/><circle cx="2.800" cy="-5" r="2.300"/><path d="M-0.500 -5h1"/></g>
   </g>
 
   <!-- curatrice : carré brun, blazer, dossier -->
