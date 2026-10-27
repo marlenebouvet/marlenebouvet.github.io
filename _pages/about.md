@@ -43,18 +43,10 @@ J'ai également conduit des recherches, en Master, en sociologie de la religion 
 
 Je suis spécialisée dans l'**approche biographique des pratiques culturelles, professionnelles et médicales**, pensant mes objets en termes de **socialisation**, de **dispositions** et de **rapports sociaux de classe, genre, appartenance socio-ethnique, âge, handicap**, les inégalités et relations sociales qu'ils produisent. Je suis passionnée par l'approche sociologique du bonheur et du mal-être, dans leurs liens avec les configurations matérielles d'existence. Au niveau épistémologique, je m'intéresse aux **rapports entre disciplines sociologique et psychologique**, ainsi qu'aux approches sociologiques de l'individu. 
 
-## Méthodes
+<h2 id="methodes" class="page__title" style="margin-top: 1.6em; color: #a11828; text-align: center; font-size: 2.4em; margin-bottom: 0.8em">Méthodes</h2>
 
 - **Immersion ethnographique** : monographie, observations, comparaison
 - **Entretiens** : semi-dirigés, libres, collectifs. Face à face, visio, par téléphone.
 - **Questionnaires**
 - **Exploitation secondaire de bases de données** (dossiers administratifs)
 - **Analyses de corpus** (articles de presse, articles scientifiques). **Synthèses chiffrées.**
-
-## Que trouve-t-on sur ce site ?
-
-Sur ce site web, je mets à disposition la liste de mes **publications scientifiques, collaborations, enseignements, interventions dans les médias**. Vous y trouverez le **contenu de certaines interventions orales**, en séminaire, pour des collectivités ou des associations. J'y proposerai aussi des **recommandations de lecture et de contenus pertinents sur l'approche de mes objets en sciences sociales**. Tout en conservant un esprit généraliste, mon objectif est d'en faire un **lieu ressource** pour celles et ceux qui s'intéressent aux **métamorphoses du travail, de la psychiatrie, des normes de santé et de la culture** : il s'agit de mettre un coup de projecteur sur les découvertes sociologiques de mes collègues, commenter le changement social, diffuser les connaissances produites par les sciences sociales (et le journalisme, le secteur associatif, voire les sciences médicales) sur ces sujets ! Je partagerai aussi, ponctuellement, des synthèses et réflexions sur les phénomènes sociaux qui affleurent dans l'actualité.
-
-N'hésitez pas à me contacter par mail !
-
-*Remarque : Les principales rubriques sont disponibles, mais le site a vu le jour récemment et des ajouts sont à venir.*
