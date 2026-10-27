@@ -10,11 +10,11 @@ redirect_from:
 {% include base_path %}
 
 <style>
-  .cv-timeline { --logo-w: 4.8em; padding-left: 12px; margin-bottom: 2.4em; }
+  .cv-timeline { --logo-w: 6em; padding-left: 12px; margin-bottom: 2.4em; }
   .cv-arrowhead { margin-left: calc(var(--logo-w) + 2.5px - 13px); width: 0; height: 0; border-left: 13px solid transparent; border-right: 13px solid transparent; border-bottom: 22px solid #1a5a85; }
   .cv-row { display: flex; align-items: stretch; }
   .cv-logo { flex: 0 0 var(--logo-w); width: var(--logo-w); display: flex; align-items: center; justify-content: center; align-self: center; padding-right: 0.8em; box-sizing: border-box; }
-  .cv-logo img { max-width: 100%; max-height: 3.4em; width: auto; height: auto; object-fit: contain; }
+  .cv-logo img { max-width: 100%; max-height: 3.4em; width: auto; height: auto; object-fit: contain; mix-blend-mode: multiply; }
   .cv-date { flex: 0 0 8.6em; position: relative; display: flex; align-items: center; border-left: 5px solid #1a5a85; padding: 1.5em 0 1.5em 1.3em; font-weight: 800; color: #a11828; font-size: 1.45em; line-height: 1.15; letter-spacing: -0.01em; }
   .cv-date::before { content: ""; position: absolute; left: -11.5px; top: 50%; width: 10px; height: 10px; margin-top: -9px; border-radius: 50%; background: #a11828; border: 4px solid #fff; box-shadow: 0 0 0 2px #1a5a85; }
   .cv-body { flex: 1 1 auto; margin: 0.45em 0 0.45em 2cm; min-width: 0; align-self: center; display: flex; align-items: center; gap: 1em; background: #f3f6f9; border-left: 5px solid #1a5a85; border-radius: 0 12px 12px 0; padding: 0.8em 1.3em; box-shadow: 0 2px 8px rgba(26, 90, 133, 0.12); transition: transform .15s ease, box-shadow .15s ease; }
@@ -22,8 +22,8 @@ redirect_from:
   .cv-text { flex: 1 1 auto; min-width: 0; }
   .cv-title { color: #1a5a85; font-weight: 800; font-size: 1.5em; line-height: 1.2; }
   .cv-place { margin-top: 0.25em; font-weight: 700; font-size: 1.1em; color: #494e52; }
-  .cv-right { flex: 0 0 auto; display: flex; gap: 0.9em; align-items: center; }
-  .cv-right img { max-height: 3.4em; max-width: 6.5em; width: auto; height: auto; object-fit: contain; }
+  .cv-right { flex: 0 0 auto; display: flex; flex-direction: column; gap: 0.6em; align-items: flex-end; justify-content: center; }
+  .cv-right img { max-height: 3.4em; max-width: 10.5em; width: auto; height: auto; object-fit: contain; mix-blend-mode: multiply; }
   @media (max-width: 700px) { .cv-body { margin-left: 1em; } .cv-date { flex-basis: 5.6em; font-size: 1.15em; } .cv-right { display: none; } }
 </style>
 

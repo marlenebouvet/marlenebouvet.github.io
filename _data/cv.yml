@@ -36,7 +36,7 @@ experience:
     logos: [anr-rev]
   - date: "2023 - 2024"
     title: "Post-doctorat"
-    place: "Haute Ecole Spécialisée de Suisse Occidentale (HES-SO)"
+    place: "Haute Ecole Spécialisée de Suisse Occidentale <span style='white-space: nowrap'>(HES-SO)</span>"
     logos: [hes-so]
   - date: "2019 - 2023"
     title: "Attachée Temporaire d'Enseignement et de Recherche"
