@@ -260,39 +260,39 @@
 }
 
 
-/* Left column: text and icons tripled on wide screens (wider column, content shifted) */
+/* Left column: text at the same size as the news titles (1.4rem), column a bit wider */
 @media screen and (min-width: 1024px) {
   .sidebar {
-    width: 400px !important;
-    max-width: 400px !important;
-    padding-right: 20px;
+    width: 290px !important;
+    max-width: 290px !important;
+    padding-right: 16px;
     box-sizing: border-box;
   }
 
   .sidebar .author__avatar img {
-    max-width: 200px;
+    max-width: 175px;
   }
 
   .sidebar .author__name {
-    font-size: 3em;
-    line-height: 1.1;
-  }
-
-  .sidebar .author__bio {
-    font-size: 2.25em;
+    font-size: 1.5rem;
     line-height: 1.2;
   }
 
-  .sidebar .author__urls li {
-    font-size: 2.25em;
+  .sidebar .author__bio {
+    font-size: 1.4rem;
     line-height: 1.25;
+  }
+
+  .sidebar .author__urls li {
+    font-size: 1.4rem;
+    line-height: 1.35;
   }
 
   .page,
   .archive {
     float: none !important;
     width: auto !important;
-    margin-left: 440px !important;
+    margin-left: 320px !important;
     margin-right: 1.5em !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
