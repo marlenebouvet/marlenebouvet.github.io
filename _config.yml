@@ -76,12 +76,14 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Ouvrages'
   articles:
-    title: 'Articles'
+    title: 'Articles dans des revues à comité de lecture'
   chapters:
     title: "Chapitres d'ouvrage"
+  books:
+    title: 'Livre'
+  other:
+    title: "Rapports d'étude et autres articles"
   thesis:
     title: 'Thèse de doctorat'
 

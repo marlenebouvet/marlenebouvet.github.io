@@ -1,7 +1,7 @@
 ---
 title: "Goûts, pratiques et usages culturels des jeunes en milieu populaire. Adolescent·es de 11 à 20 ans dans une ville moyenne à la périphérie de l’agglomération lyonnaise"
 collection: publications
-category: articles
+category: other
 permalink: /publication/injep-2020
 image: "../images/injep-2020.png"
 

@@ -11,6 +11,27 @@ author_profile: true
 
 {% include base_path %}
 
+<h2>Liste</h2>
+<p style="font-size: 0.8em"><strong>cliquez pour accéder aux résumés et à la référence bibliographique</strong></p>
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h3 style="margin-bottom: 0.2em">{{ category[1].title }}</h3>
+        <ul style="margin-top: 0">
+        {% assign title_shown = true %}
+      {% endunless %}
+      <li><a href="{{ base_path }}{{ post.url }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a></li>
+    {% endfor %}
+    {% if title_shown %}</ul>{% endif %}
+  {% endfor %}
+{% endif %}
+<hr />
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
