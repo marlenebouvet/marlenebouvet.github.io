@@ -1,7 +1,7 @@
 ---
 title: "La « biologisation bienveillante » des déprimé•es en clinique privée. La réception de trois répertoires de légitimation au prisme de la classe et des masculinités"
 collection: publications
-category: articles
+category: chapters
 permalink: /publication/biologisation
 
 authors: "Marlène Bouvet"

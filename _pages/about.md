@@ -1,7 +1,7 @@
 ---
 layout: main
 permalink: /
-title: "Affiliation actuelle"
+title: "Affiliations actuelles"
 author_profile: true
 redirect_from: 
   - /about/

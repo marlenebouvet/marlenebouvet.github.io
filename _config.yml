@@ -76,19 +76,20 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  thesis:
-    title: 'Thèse de doctorat'
   books:
     title: 'Ouvrages'
   articles:
-    title: "Articles et chapitres d'ouvrages"
+    title: 'Articles'
+  chapters:
+    title: "Chapitres d'ouvrage"
+  thesis:
+    title: 'Thèse de doctorat'
 
 talk_category:
   congres:
     title: 'Congrès & colloques'
   seminar:
-    title: |
-      Journées d'étude & séminaires
+    title: "Journées d'étude et invitations individuelles en séminaires"
   diffusion:
     title: 'Interventions hors les murs & diffusion'
 
