@@ -46,7 +46,7 @@ En tant que docteure en sociologie, j'investigue plusieurs thématiques, de faç
   <p style="margin: 0"><strong>Sociologie de la déviance</strong>, dispositifs de régulation, de contrôle social et d’autocontrôle, rapport aux normes de genre, classe, âge, ethnoraciales</p>
 </div>
 <div style="display: flex; align-items: center; gap: 1.3em; margin: 1em 0">
-  <img src="/images/icons/theme-culture.svg" alt="Une femme qui passe d'une pièce à l'autre, entre ordinateur et enfant" style="flex: 0 0 4.8em; width: 4.8em; height: 4.8em">
+  <img src="/images/icons/theme-culture.svg" alt="Représentation stylisée du diagramme de La Distinction de Bourdieu" style="flex: 0 0 4.8em; width: 4.8em; height: 4.8em">
   <p style="margin: 0"><strong>Sociologie de la culture et des styles de vie, sociologie de la réception</strong>, recherches articulant <strong>travail et hors-travail</strong></p>
 </div>
 
