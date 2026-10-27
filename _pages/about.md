@@ -9,6 +9,9 @@ redirect_from:
 ---
 <style>
   .page p, .page li { font-size: 1.12em; }
+  .specialites { list-style: none; margin: 0.4em 0 0 0; padding: 0; }
+  .specialites li { position: relative; margin: 0.45em 0; padding-left: 1.9em; line-height: 1.45; }
+  .specialites li::before { content: "\2192"; position: absolute; left: 0; top: -0.08em; color: #a11828; font-weight: 800; font-size: 1.15em; }
 </style>
 
 **Docteure en sociologie.**
@@ -42,6 +45,18 @@ En tant que docteure en sociologie, j'investigue plusieurs thématiques, de faç
   <img src="/images/icons/theme-culture.svg" alt="Une femme qui passe d'une pièce à l'autre, entre ordinateur et enfant" style="flex: 0 0 4.8em; width: 4.8em; height: 4.8em">
   <p style="margin: 0"><strong>Sociologie de la culture et des styles de vie, sociologie de la réception</strong>, recherches articulant <strong>travail et hors-travail</strong></p>
 </div>
+
+<p style="margin: 1.8em 0 0 0"><strong style="font-size: 1.15em">Spécialités :</strong></p>
+
+<ul class="specialites">
+  <li>Approche biographique des pratiques culturelles, professionnelles et médicales</li>
+  <li>Socialisation, dispositions notamment affectives</li>
+  <li>Articulation des rapports sociaux (classe, genre, handicap, appartenance socio-ethnique, âge)</li>
+  <li>Inégalités sociales</li>
+  <li>Approche sociologique du bonheur et du mal-être, dans leurs liens avec les configurations matérielles d’existence</li>
+  <li>Rapports entre disciplines sociologique et disciplines psychologique et psychiatrique</li>
+  <li>Approches sociologiques de l’individu</li>
+</ul>
 
 J'ai également conduit des recherches, en Master, en sociologie de la religion et en sociologie économique. 
 
