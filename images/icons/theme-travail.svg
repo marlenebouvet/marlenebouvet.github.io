@@ -1,27 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Un professionnel au casque de chantier, en blouse avec stéthoscope, tenant un marteau">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Quatre professionnels : un ingénieur, une psychiatre, une curatrice et une infirmière">
   <rect x="4" y="4" width="112" height="112" rx="18" fill="#a11828"/>
   <rect x="11" y="11" width="98" height="98" rx="12" fill="none" stroke="#fff" stroke-width="2.5"/>
-  <g transform="translate(-7 3)">
-  <!-- blouse : épaules et corps -->
-  <path d="M30 100V80c0-12 8-17 18-19l12 12 12-12c10 2 18 7 18 19v20z" fill="#fff"/>
-  <!-- col de blouse -->
-  <path d="M48 61l12 20 12-20" fill="none" stroke="#a11828" stroke-width="3.2" stroke-linejoin="round"/>
-  <!-- stéthoscope -->
-  <path d="M52 66c-3 14 0 22 8 22s11-8 8-22" fill="none" stroke="#a11828" stroke-width="2.4" stroke-linecap="round"/>
-  <circle cx="60" cy="89.5" r="3.3" fill="#a11828"/>
-  <!-- poche -->
-  <rect x="73" y="84" width="9" height="11" rx="1.5" fill="none" stroke="#a11828" stroke-width="2"/>
-  <!-- tête et casque -->
-  <circle cx="60" cy="42" r="11" fill="#fff"/>
-  <path d="M45 41a15 15 0 0 1 30 0z" fill="#f2c14e"/>
-  <rect x="42" y="39.5" width="36" height="5" rx="2.5" fill="#f2c14e"/>
-  <path d="M60 26v14" stroke="#a11828" stroke-width="1.8" opacity="0.55"/>
-  <!-- bras et marteau -->
-  <path d="M82 70l10 9" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
-  <g transform="rotate(20 94 80)">
-    <rect x="91" y="54" width="6" height="42" rx="3" fill="#fff"/>
-    <rect x="82" y="46" width="24" height="11" rx="3" fill="#fff"/>
-    <path d="M88 46v11" stroke="#a11828" stroke-width="1.5"/>
+
+  <!-- ingénieur : casque jaune, gilet orange à bandes réfléchissantes -->
+  <g transform="translate(35 36) scale(1.2)">
+    <path d="M-14 18v-5c0-6 5-10 10-11h8c5 1 10 5 10 11v5z" fill="#f08a24"/>
+    <path d="M-14 13h28v2.600h-28z" fill="#fff"/>
+    <path d="M-4 2l4 6 4-6" fill="none" stroke="#fff" stroke-width="1.800" stroke-linejoin="round"/>
+    <circle cx="0" cy="-6" r="6.800" fill="#ffe0cf"/>
+    <path d="M-8.500 -7a8.500 8.500 0 0 1 17 0z" fill="#f2c14e"/>
+    <rect x="-10.500" y="-8" width="21" height="2.800" rx="1.400" fill="#f2c14e"/>
+    <circle cx="-2.500" cy="-4" r="0.900" fill="#5a1a22"/><circle cx="2.500" cy="-4" r="0.900" fill="#5a1a22"/>
   </g>
+
+  <!-- psychiatre : blouse blanche, lunettes, psi -->
+  <g transform="translate(85 36) scale(1.2)">
+    <path d="M-14 18v-5c0-6 5-10 10-11h8c5 1 10 5 10 11v5z" fill="#fff"/>
+    <path d="M-3.800 5.500v3a3.800 3.800 0 0 0 7.600 0v-3M0 4.500v11" fill="none" stroke="#a11828" stroke-width="1.700" stroke-linecap="round"/>
+    <circle cx="0" cy="-6" r="6.800" fill="#ffe0cf"/>
+    <path d="M-7.200 -7c0-4 3-6.500 7.200-6.500S7.200 -11 7.200 -7c-2-1.800-4.400-2.600-7.200-2.600S-5.200 -8.800 -7.200 -7z" fill="#5a3a2e"/>
+    <g fill="none" stroke="#a11828" stroke-width="1.300"><circle cx="-2.800" cy="-5" r="2.300"/><circle cx="2.800" cy="-5" r="2.300"/><path d="M-0.5 -5h1"/></g>
+  </g>
+
+  <!-- curatrice : carré brun, blazer, dossier -->
+  <g transform="translate(35 81) scale(1.2)">
+    <path d="M-14 18v-5c0-6 5-10 10-11h8c5 1 10 5 10 11v5z" fill="#d9dbe3"/>
+    <path d="M-4 2l4 8 4-8" fill="none" stroke="#8a8fa3" stroke-width="1.600" stroke-linejoin="round"/>
+    <circle cx="0" cy="-6" r="6.800" fill="#ffe0cf"/>
+    <path d="M-8 -5.500c-1-6 2-9 8-9s9 3 8 9v5h-2.800v-6c-3-1-7.200-1-10.400 0v6H-8z" fill="#4a2a24"/>
+    <circle cx="-2.500" cy="-4" r="0.900" fill="#5a1a22"/><circle cx="2.500" cy="-4" r="0.900" fill="#5a1a22"/>
+    <rect x="3" y="7" width="11" height="10" rx="1.200" fill="#f2c14e"/>
+    <path d="M3 8.500h5v-2h2.500v2" fill="none" stroke="#f2c14e" stroke-width="1.200"/>
+    <path d="M5.500 11.500h6M5.500 14h4" stroke="#a11828" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- infirmière : coiffe à croix rouge, tenue blanche -->
+  <g transform="translate(85 81) scale(1.2)">
+    <path d="M-14 18v-5c0-6 5-10 10-11h8c5 1 10 5 10 11v5z" fill="#fff"/>
+    <path d="M-3 2l3 5 3-5" fill="none" stroke="#a11828" stroke-width="1.500" stroke-linejoin="round"/>
+    <circle cx="0" cy="-6" r="6.800" fill="#ffe0cf"/>
+    <path d="M-7.800 -8.500c0-5 3.500-7.500 7.800-7.500s7.800 2.500 7.800 7.500c-2.400-1.600-4.800-2.200-7.800-2.200s-5.400 0.600-7.800 2.200z" fill="#fff" stroke="#a11828" stroke-width="1"/>
+    <path d="M-1 -15.500h2v1.800h1.800v2h-1.800v1.800h-2v-1.800h-1.800v-2h1.800z" fill="#a11828"/>
+    <circle cx="-2.500" cy="-4" r="0.900" fill="#5a1a22"/><circle cx="2.500" cy="-4" r="0.900" fill="#5a1a22"/>
   </g>
 </svg>
