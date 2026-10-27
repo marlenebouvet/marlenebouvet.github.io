@@ -5,6 +5,7 @@ toc_ref: "*Qualitative Sociology*, 2026"
 toc_icon: "/images/logos/qualitative-sociology.png"
 category: articles
 permalink: /publication/qualitative-sociology
+image: "../images/logos/qualitative-sociology.png"
 
 authors: "Agnès Aubry, Marlène Bouvet, Lucile Quéré, David Pichonnaz"
 venue: "Qualitative Sociology"

@@ -9,7 +9,7 @@ image: "../images/injep-2020.png"
 authors: "Chantal Dahan, Christine Détrez, Marlène Bouvet, Emmanuelle Guittet, Tomas Legon, Clémence Perronnet"
 venue: "INJEP Notes & rapports"
 date: 2020-10-05
-excerpt: "Ce rapport de recherche vise à décrire, de manière résolument qualitative, les pratiques culturelles de jeunes de milieux populaires résidant dans les quartiers populaires de villes moyennes, aux abords de Paris et de Lyon – de la proche banlieue aux limites de l’agglomération. Dans les catégories analytiques et méthodologiques qu’elle convoque, elle emprunte à une riche tradition de recherche en sociologie de la culture, qu’il s’agisse des modes de réception de genres littéraires et cinématographiques ou de l’effet d’un capital culturel dans les usages et appropriations des loisirs, des années 1970 ) aux années 2010 et 2020, des travaux sur les pratiques de lecture des étudiant.e.s en école préparatoire littéraire, ou encore sur la réception des littératures de l’imaginaire (science-fiction et fantasy) parmi les jeunes adultes âgés de 20 à 30 ans."
+excerpt: "Ce rapport de recherche vise à décrire, de manière résolument qualitative, les pratiques culturelles de jeunes de milieux populaires résidant dans les quartiers populaires de villes moyennes, aux abords de Paris et de Lyon – de la proche banlieue aux limites de l’agglomération. Dans les catégories analytiques et méthodologiques qu’elle convoque, elle emprunte à une riche tradition de recherche en sociologie de la culture, qu’il s’agisse des modes de réception de genres littéraires et cinématographiques ou de l’effet d’un capital culturel dans les usages et appropriations des loisirs, des années 1970 ) aux années 2010 et 2020, des travaux sur les pratiques de lecture des étudiant·e·s en école préparatoire littéraire, ou encore sur la réception des littératures de l’imaginaire (science-fiction et fantasy) parmi les jeunes adultes âgés de 20 à 30 ans."
 
 paperurl: '../files/injep-2020.pdf'
 citation: 'Dahan C., Détrez C. (dir.), Bouvet M., Guittet E., Legon T., Perronnet C., Goût, pratiques et usages culturels en milieu populaire, INJEP Notes & rapports/Rapport d’étude.'
@@ -20,7 +20,7 @@ de milieux populaires résidant dans les quartiers populaires de villes moyennes
 Lyon – de la proche banlieue aux limites de l’agglomération. Dans les catégories analytiques et méthodologiques qu’elle convoque, elle emprunte à une riche tradition de recherche en sociologie de la culture,
 qu’il s’agisse des modes de réception de genres littéraires et cinématographiques ou de l’effet d’un capital
 culturel dans les usages et appropriations des loisirs, des années 1970 ) aux années 2010 et 2020, des travaux
-sur les pratiques de lecture des étudiant.e.s en école préparatoire littéraire, ou encore sur la réception des
+sur les pratiques de lecture des étudiant·e·s en école préparatoire littéraire, ou encore sur la réception des
 littératures de l’imaginaire (science-fiction et fantasy) parmi les jeunes adultes âgés de 20 à 30 ans.
 
 Il s’est donc agi de construire, à travers les monographies de trois quartiers de la politique de la ville (situés à

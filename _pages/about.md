@@ -24,7 +24,7 @@ En tant que docteure en sociologie, j'investigue plusieurs thématiques, de faç
 </div>
 <div style="display: flex; align-items: center; gap: 1.4em; margin: 1.2em 0">
   <img src="/images/icons/theme-travail.svg" alt="Une blouse et un marteau" style="flex: 0 0 6em; width: 6em; height: 6em">
-  <p style="margin: 0"><strong>Sociologie du travail et de la socialisation professionnelle</strong>, en particulier les <strong>métiers scientifiques</strong> (ingénieur.es financier.es, médecins urgentistes et réanimateurs, psychiatres, psychologues), du <strong>travail social</strong> (curatrices professionnelles), du travail <strong>paramédical</strong> (infirmier.es)</p>
+  <p style="margin: 0"><strong>Sociologie du travail et de la socialisation professionnelle</strong>, en particulier les <strong>métiers scientifiques</strong> (ingénieur·es financier·es, médecins urgentistes et réanimateurs, psychiatres, psychologues), du <strong>travail social</strong> (curatrices professionnelles), du travail <strong>paramédical</strong> (infirmier·es)</p>
 </div>
 <div style="display: flex; align-items: center; gap: 1.4em; margin: 1.2em 0">
   <img src="/images/icons/theme-deviance.svg" alt="Une prison" style="flex: 0 0 6em; width: 6em; height: 6em">
