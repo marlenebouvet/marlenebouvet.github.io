@@ -27,25 +27,7 @@ redirect_from:
   @media (max-width: 700px) { .cv-body { margin-left: 1em; } .cv-date { flex-basis: 5.6em; font-size: 1.15em; } .cv-right { display: none; } }
 </style>
 
-<h2 class="page__title" style="margin-top: 0.4em; color: #a11828; text-align: center; font-size: 2.4em; margin-bottom: 0.8em">Diplômes</h2>
-
-<div class="cv-timeline">
-  <div class="cv-arrowhead" title="Du plus ancien au plus récent"></div>
-  {% for d in site.data.cv.diplomes %}
-  <div class="cv-row">
-    <div class="cv-logo">{% capture cv_logo %}{% if d.logo %}{% include cv-logo.html name=d.logo alt=d.place %}{% endif %}{% endcapture %}{% if cv_logo contains "<img" %}{{ cv_logo }}{% else %}<img src="/images/icons/diplome.svg" alt="Diplôme">{% endif %}</div>
-    <div class="cv-date">{{ d.date }}</div>
-    <div class="cv-body">
-      <div class="cv-text">
-        <div class="cv-title">{{ d.title }}</div>
-        {% if d.place %}<div class="cv-place">{{ d.place }}</div>{% endif %}
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-</div>
-
-<h2 class="page__title" style="margin-top: 1.6em; color: #a11828; text-align: center; font-size: 2.4em; margin-bottom: 0.8em">Expérience professionnelle</h2>
+<h2 class="page__title" style="margin-top: 0.4em; color: #a11828; text-align: center; font-size: 2.4em; margin-bottom: 0.8em">Expérience professionnelle</h2>
 
 <div class="cv-timeline">
   <div class="cv-arrowhead" title="Du plus ancien au plus récent"></div>
@@ -59,6 +41,24 @@ redirect_from:
         {% if e.place %}<div class="cv-place">{{ e.place }}</div>{% endif %}
       </div>
       <div class="cv-right">{% for l in e.logos %}{% include cv-logo.html name=l %}{% endfor %}</div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<h2 class="page__title" style="margin-top: 1.6em; color: #a11828; text-align: center; font-size: 2.4em; margin-bottom: 0.8em">Diplômes</h2>
+
+<div class="cv-timeline">
+  <div class="cv-arrowhead" title="Du plus ancien au plus récent"></div>
+  {% for d in site.data.cv.diplomes %}
+  <div class="cv-row">
+    <div class="cv-logo">{% capture cv_logo %}{% if d.logo %}{% include cv-logo.html name=d.logo alt=d.place %}{% endif %}{% endcapture %}{% if cv_logo contains "<img" %}{{ cv_logo }}{% else %}<img src="/images/icons/diplome.svg" alt="Diplôme">{% endif %}</div>
+    <div class="cv-date">{{ d.date }}</div>
+    <div class="cv-body">
+      <div class="cv-text">
+        <div class="cv-title">{{ d.title }}</div>
+        {% if d.place %}<div class="cv-place">{{ d.place }}</div>{% endif %}
+      </div>
     </div>
   </div>
   {% endfor %}
