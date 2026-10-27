@@ -9,7 +9,7 @@ redirect_from:
 ---
 <style>
   .page p, .page li { font-size: 1.12em; }
-  img[src^="/images/icons/theme-"] { opacity: 0.5; }
+  img[src^="/images/icons/theme-"] { opacity: 0.8; }
   .specialites { list-style: none; margin: 0.4em 0 0 4.2rem; padding: 0; column-count: 2; column-gap: 2.2em; }
   .specialites li { position: relative; margin: 0; padding: 0.22em 0 0.22em 1.7em; line-height: 1.45; font-weight: 700; break-inside: avoid; }
   .specialites li::before { content: "\2192"; position: absolute; left: 0; top: 0.14em; color: #a11828; font-weight: 800; font-size: 1.15em; }
