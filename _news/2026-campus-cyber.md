@@ -1,5 +1,5 @@
 ---
-date: 2026-10-27
+date: 2026-07-01
 title: "Intervention à Campus Cyber, réunion de l'ANR REV"
 show: true
 ---
