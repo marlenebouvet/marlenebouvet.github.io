@@ -69,7 +69,7 @@ J'ai également conduit des recherches, en Master, en sociologie de la religion 
 <div class="methodes">
   <div class="methode"><div><b>Immersion ethnographique</b>monographie, observations, comparaison</div><img src="/images/icons/methode-ethnographie.svg" alt=""></div>
   <div class="methode"><div><b>Entretiens</b>semi-dirigés, libres, collectifs. Face à face, visio, par téléphone.</div><img src="/images/icons/methode-entretiens.svg" alt=""></div>
-  <div class="methode"><div><b>Questionnaires</b></div><img src="/images/icons/methode-questionnaires.svg" alt=""></div>
+  <div class="methode"><div><b>Questionnaires</b>diffusion en ligne. LimeSurvey, Sphinx</div><img src="/images/icons/methode-questionnaires.svg" alt=""></div>
   <div class="methode"><div><b>Exploitation secondaire de bases de données</b>(dossiers administratifs)</div><img src="/images/icons/methode-donnees.svg" alt=""></div>
   <div class="methode"><div><b>Analyses de corpus</b>(articles de presse, articles scientifiques). <b style="display: inline">Synthèses chiffrées.</b></div><img src="/images/icons/methode-corpus.svg" alt=""></div>
 </div>
