@@ -10,8 +10,12 @@ redirect_from:
 <style>
   .page p, .page li { font-size: 1.12em; }
   .specialites { list-style: none; margin: 0.4em 0 0 0; padding: 0; }
-  .specialites li { position: relative; margin: 0.45em 0; padding-left: 1.9em; line-height: 1.45; }
-  .specialites li::before { content: "\2192"; position: absolute; left: 0; top: -0.08em; color: #a11828; font-weight: 800; font-size: 1.15em; }
+  .specialites li { position: relative; margin: 0.45em 0; padding-left: 6.1rem; line-height: 1.45; font-weight: 700; }
+  .specialites li::before { content: "\2192"; position: absolute; left: 4.3rem; top: -0.08em; color: #a11828; font-weight: 800; font-size: 1.15em; }
+  .methodes { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1em; margin: 1.2em 0 1.5em 0; }
+  .methode { border: 2px solid #111; padding: 0.9em 0.85em 1em; display: flex; flex-direction: column; gap: 0.7em; font-size: 1.05em; line-height: 1.35; }
+  .methode img { width: 3.3em; height: 3.3em; }
+  .methode b { display: block; font-size: 1.08em; }
 </style>
 
 **Docteure en sociologie.**
@@ -46,7 +50,7 @@ En tant que docteure en sociologie, j'investigue plusieurs thématiques, de faç
   <p style="margin: 0"><strong>Sociologie de la culture et des styles de vie, sociologie de la réception</strong>, recherches articulant <strong>travail et hors-travail</strong></p>
 </div>
 
-<p style="margin: 1.8em 0 0 0"><strong style="font-size: 1.15em">Spécialités :</strong></p>
+<p style="margin: 1.8em 0 0 6.1rem"><strong style="font-size: 1.15em">Spécialités :</strong></p>
 
 <ul class="specialites">
   <li>Approche biographique des pratiques culturelles, professionnelles et médicales</li>
@@ -60,12 +64,12 @@ En tant que docteure en sociologie, j'investigue plusieurs thématiques, de faç
 
 J'ai également conduit des recherches, en Master, en sociologie de la religion et en sociologie économique. 
 
-Je suis spécialisée dans l'**approche biographique des pratiques culturelles, professionnelles et médicales**, pensant mes objets en termes de **socialisation**, de **dispositions** et de **rapports sociaux de classe, genre, appartenance socio-ethnique, âge, handicap**, les inégalités et relations sociales qu'ils produisent. Je suis passionnée par l'approche sociologique du bonheur et du mal-être, dans leurs liens avec les configurations matérielles d'existence. Au niveau épistémologique, je m'intéresse aux **rapports entre disciplines sociologique et psychologique**, ainsi qu'aux approches sociologiques de l'individu. 
-
 <h2 id="methodes" class="page__title" style="margin-top: 1.6em; color: #a11828; text-align: center; font-size: 2.4em; margin-bottom: 0.8em">Méthodes</h2>
 
-- **Immersion ethnographique** : monographie, observations, comparaison
-- **Entretiens** : semi-dirigés, libres, collectifs. Face à face, visio, par téléphone.
-- **Questionnaires**
-- **Exploitation secondaire de bases de données** (dossiers administratifs)
-- **Analyses de corpus** (articles de presse, articles scientifiques). **Synthèses chiffrées.**
+<div class="methodes">
+  <div class="methode"><img src="/images/icons/methode-ethnographie.svg" alt=""><div><b>Immersion ethnographique</b>monographie, observations, comparaison</div></div>
+  <div class="methode"><img src="/images/icons/methode-entretiens.svg" alt=""><div><b>Entretiens</b>semi-dirigés, libres, collectifs. Face à face, visio, par téléphone.</div></div>
+  <div class="methode"><img src="/images/icons/methode-questionnaires.svg" alt=""><div><b>Questionnaires</b></div></div>
+  <div class="methode"><img src="/images/icons/methode-donnees.svg" alt=""><div><b>Exploitation secondaire de bases de données</b>(dossiers administratifs)</div></div>
+  <div class="methode"><img src="/images/icons/methode-corpus.svg" alt=""><div><b>Analyses de corpus</b>(articles de presse, articles scientifiques). <b style="display: inline">Synthèses chiffrées.</b></div></div>
+</div>
