@@ -23,7 +23,11 @@ En tant que docteure en sociologie, j'investigue plusieurs thématiques, de faç
   <p style="margin: 0"><strong>Sociologie de la thérapie</strong>, des <strong>émotions</strong> et de la <strong>santé mentale</strong>, de la <strong>psychiatrie, psychologie, culture psychologique de masse, développement personnel</strong>. Au prisme de la classe sociale, du genre et des trajectoires migratoires.</p>
 </div>
 <div style="display: flex; align-items: center; gap: 1.4em; margin: 1.2em 0">
-  <img src="/images/icons/theme-travail.svg" alt="Une blouse et un marteau" style="flex: 0 0 6em; width: 6em; height: 6em">
+  <img src="/images/icons/theme-numerique.svg" alt="Un hacker éthique à lunettes et une médecin casquée avec un smartphone, devant quatre écrans" style="flex: 0 0 6em; width: 6em; height: 6em">
+  <p style="margin: 0"><strong>Sociologie du numérique</strong> : pratiques et profils des <strong>chercheur·ses de vulnérabilités informatiques</strong>, usages de l’<strong>IA</strong> dans la prise de décision en santé</p>
+</div>
+<div style="display: flex; align-items: center; gap: 1.4em; margin: 1.2em 0">
+  <img src="/images/icons/theme-travail.svg" alt="Un professionnel au casque de chantier, en blouse avec stéthoscope, tenant un marteau" style="flex: 0 0 6em; width: 6em; height: 6em">
   <p style="margin: 0"><strong>Sociologie du travail et de la socialisation professionnelle</strong>, en particulier les <strong>métiers scientifiques</strong> (ingénieur·es financier·es, médecins urgentistes et réanimateurs, psychiatres, psychologues), du <strong>travail social</strong> (curatrices professionnelles), du travail <strong>paramédical</strong> (infirmier·es)</p>
 </div>
 <div style="display: flex; align-items: center; gap: 1.4em; margin: 1.2em 0">

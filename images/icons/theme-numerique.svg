@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Un hacker éthique à lunettes et une médecin casquée avec un smartphone, devant quatre écrans">
+  <rect x="4" y="4" width="112" height="112" rx="18" fill="#5b4b8a"/>
+  <rect x="11" y="11" width="98" height="98" rx="12" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <!-- quatre écrans -->
+  <g fill="#1f1a36" stroke="#fff" stroke-width="1.6">
+    <rect x="15" y="18" width="20" height="16" rx="2"/>
+    <rect x="38" y="18" width="20" height="16" rx="2"/>
+    <rect x="62" y="18" width="20" height="16" rx="2"/>
+    <rect x="85" y="18" width="20" height="16" rx="2"/>
+  </g>
+  <!-- contenus : code, croix médicale, courbe, cadenas -->
+  <g fill="none" stroke="#8ee0a8" stroke-width="1.6" stroke-linecap="round">
+    <path d="M19 23h8M19 27h12M19 31h6"/>
+  </g>
+  <path d="M47 22.5h2v3h3v2h-3v3h-2v-3h-3v-2h3z" fill="#fff"/>
+  <path d="M65 31l4-5 4 3 5-8" fill="none" stroke="#f2c14e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="91" y="26" width="8" height="6" rx="1" fill="#fff"/>
+  <path d="M93 26v-2a2 2 0 0 1 4 0v2" fill="none" stroke="#fff" stroke-width="1.6"/>
+  <!-- hacker éthique à lunettes (capuche) -->
+  <path d="M18 100V84c0-9 7-14 16-15h8c9 1 16 6 16 15v16z" fill="#cfc6ee"/>
+  <path d="M22 62a14 15 0 0 1 28 0v9H22z" fill="#cfc6ee"/>
+  <circle cx="36" cy="64" r="10" fill="#fff"/>
+  <g fill="none" stroke="#1f1a36" stroke-width="1.8">
+    <circle cx="32" cy="63.5" r="3.6"/><circle cx="40.5" cy="63.5" r="3.6"/><path d="M35.6 63.5h1.3"/>
+  </g>
+  <!-- médecin casquée avec smartphone -->
+  <path d="M60 100V86c0-9 7-15 16-16l6 7 6-7c9 1 16 7 16 16v14z" fill="#fff"/>
+  <path d="M76 70l6 14 6-14" fill="none" stroke="#5b4b8a" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="82" cy="57" r="10" fill="#fff"/>
+  <path d="M70.5 57a11.5 12 0 0 1 23 0" fill="none" stroke="#f2c14e" stroke-width="3" stroke-linecap="round"/>
+  <rect x="67.5" y="54" width="5" height="9" rx="2.2" fill="#f2c14e"/>
+  <rect x="91.5" y="54" width="5" height="9" rx="2.2" fill="#f2c14e"/>
+  <path d="M71 63c0 5 3 7 7 7" fill="none" stroke="#f2c14e" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- smartphone -->
+  <rect x="91" y="76" width="9" height="16" rx="2" fill="#1f1a36" stroke="#fff" stroke-width="1.6"/>
+  <rect x="93" y="79" width="5" height="9" rx="1" fill="#8ee0a8"/>
+  <path d="M88 84l4 2" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <!-- sol -->
+  <path d="M14 100h92" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+</svg>
