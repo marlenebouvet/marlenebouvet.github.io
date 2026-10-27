@@ -5,5 +5,6 @@ type: "Réunion de projet"
 venue: "Campus Cyber"
 category: diffusion
 date: 2026-07-01
+date_month_only: true
 ---
 Intervention à **Campus Cyber**, dans le cadre de la réunion de l'équipe de l'**ANR REV (Recherche et Exploitation des Vulnérabilités)**.

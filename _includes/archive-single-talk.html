@@ -35,7 +35,13 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta" style="font-size: 1.2em; font-weight: bold; color: #000"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%e/%m/%Y' }}</p>{% endif %}
+    {% if post.date %}
+      {% assign mois = "janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre" | split: "," %}
+      {% assign d_day = post.date | date: "%-d" %}
+      {% assign d_month = post.date | date: "%-m" | minus: 1 %}
+      {% if d_day == "1" %}{% assign d_day = "1er" %}{% endif %}
+      <p class="page__meta" style="font-size: 1.2em; font-weight: bold; color: #000">{% unless post.date_month_only %}{{ d_day }} {% endunless %}{{ mois[d_month] }} {{ post.date | date: "%Y" }}</p>
+    {% endif %}
     {% if post.venue %}<p class="archive__item-excerpt" style="font-size: 1.2em; font-weight: normal" itemprop="description">{{post.type}}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</p>{% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | replace: "<p>", '<p class="text-justify" itemprop="description">' | replace: " ?", "&nbsp;?" | replace: " »", "&nbsp;»" | replace: "« ", "«&nbsp;" }}</p>{% endif %}
   </article>
