@@ -6,6 +6,7 @@ category: seminar
 type: "Séminaire de laboratoire"
 venue: "LESCORES, Université de Clermont-Auvergne"
 date: 2021-10-01
+date_month_only: true
 location: "Clermont-Ferrand"
 ---
 Présentation des travaux de thèse auprès des collègues sociologues du Laboratoire d'Etudes Sociologiques sur la Construction et la Reproduction Sociales.

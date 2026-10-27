@@ -5,6 +5,7 @@ category: seminar
 type: "Séminaire de laboratoire"
 venue: "IRISSO"
 date: 2021-04-01
+date_month_only: true
 location: "Université Paris Dauphine"
 ---
 J'y explique comment j'ai mobilisé l'approche dispositionnaliste au fil de mes différentes études sur le travail, auprès des collègues sociologues de l'Institut de recherche interdisciplinaire en sciences sociales.

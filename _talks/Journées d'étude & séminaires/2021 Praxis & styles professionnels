@@ -6,6 +6,7 @@ type: "Journée d'étude dans le cadre d'un séminaire"
 category: seminar
 venue: "IRIS (Institut de Recherche Interdisciplinaire sur les enjeux Sociaux)"
 date: 2021-05-01
+date_month_only: true
 location: "Clermont-Ferrand"
 ---
 Communication dans le cadre d'un séminaire co-organisé par Isabelle Coutant, Baptiste Brossard et Franck Enjolras.

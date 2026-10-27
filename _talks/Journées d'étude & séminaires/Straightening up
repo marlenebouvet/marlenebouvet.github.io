@@ -6,6 +6,7 @@ category: seminar
 type: "Journée Doctorale TRIANGLE / LIA « Sociologies Post-occidentales en Chine et en Europe »"
 venue: "Ecole Normale Supérieure de Lyon"
 date: 2019-01-01
+date_month_only: true
 location: "Lyon"
 ---
 Intervention acceptée, reportée, puis annulée pour cause de Covid. 
