@@ -11,7 +11,8 @@ redirect_from:
 
 - ***[Post-doctorante](https://sociosante.hypotheses.org/8067) au sein de la chaire « Soins algorithmiques » (AlgoCare) - Laboratoire PACTE - Université Grenoble Alpes***
 - ***Chargée d'enquête pour l'équipe de l'ANR REV (Recherche et Exploitation des Vulnérabilités) - Volet sociologique du projet, présenté ici en [anglais](https://rev.s3.eurecom.fr/) et [français](https://www.pepr-cybersecurite.fr/projet/rev/)***
-- ***Associée au Centre Max Weber - ENS Lyon***
+- ***Associée au Centre Max Weber - ENS Lyon - Equipe Dispositions, Pouvoirs, Cultures et Socialisations***
+- ***Enseignante vacataire à l'Université Paris Saclay, Master Santé publique***
 
 
 ## Thèmes de recherche
