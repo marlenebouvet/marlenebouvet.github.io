@@ -2,6 +2,7 @@
 title: "How Do Social Workers Cope with Hopeless Missions and Dirty Work? A Biographical Approach to Class and Gender Variations"
 collection: publications
 toc_ref: "*Qualitative Sociology*, 2026"
+toc_icon: "/images/logos/qualitative-sociology.png"
 category: articles
 permalink: /publication/qualitative-sociology
 

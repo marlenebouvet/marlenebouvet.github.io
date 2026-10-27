@@ -2,6 +2,7 @@
 title: "Agir sur autrui"
 collection: publications
 toc_ref: "in *Sociologie du travail et des professions*, Armand Colin, 2026"
+toc_icon: "/images/sociologie-travail-professions.png"
 category: chapters
 permalink: /publication/chapitre-agir-sur-autrui
 
