@@ -1,20 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Une prison">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Une prison avec son mirador, ses barbelés et ses fenêtres à barreaux">
   <rect x="4" y="4" width="112" height="112" rx="18" fill="#494e52"/>
   <rect x="11" y="11" width="98" height="98" rx="12" fill="none" stroke="#fff" stroke-width="2.5"/>
-  <!-- barbelés -->
-  <path d="M20 42l6-9 6 9 6-9 6 9 6-9 6 9 6-9 6 9 6-9 6 9 6-9 6 9" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- faisceau du projecteur -->
+  <path d="M36 44L98 24v40z" fill="#fff" opacity="0.18"/>
+  <!-- mirador -->
+  <path d="M20 54h12l2 44H18z" fill="#fff"/>
+  <path d="M14 36h24v18H14z" fill="#fff"/>
+  <path d="M12 36l14-13 14 13z" fill="#fff"/>
+  <rect x="19" y="41" width="14" height="7" rx="1" fill="#494e52"/>
+  <circle cx="36" cy="44" r="3.2" fill="#fff"/>
   <!-- bâtiment -->
-  <rect x="20" y="42" width="80" height="54" fill="#fff"/>
+  <rect x="44" y="56" width="58" height="42" fill="#fff"/>
+  <!-- barbelés -->
+  <path d="M44 56l4-7 4 7 4-7 4 7 4-7 4 7 4-7 4 7 4-7 4 7 4-7 4 7 4-7 4 7" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/>
   <!-- fenêtres à barreaux -->
   <g fill="#494e52">
-    <rect x="28" y="52" width="18" height="24" rx="9"/>
-    <rect x="51" y="52" width="18" height="24" rx="9"/>
-    <rect x="74" y="52" width="18" height="24" rx="9"/>
+    <rect x="50" y="62" width="14" height="16" rx="2"/>
+    <rect x="69" y="62" width="14" height="16" rx="2"/>
+    <rect x="88" y="62" width="9" height="16" rx="2"/>
   </g>
-  <g stroke="#fff" stroke-width="2">
-    <path d="M34 52v24M40 52v24M57 52v24M63 52v24M80 52v24M86 52v24"/>
+  <g stroke="#fff" stroke-width="1.8">
+    <path d="M54.5 62v16M59.5 62v16M73.5 62v16M78.5 62v16M92.5 62v16"/>
   </g>
-  <!-- porte -->
-  <rect x="48" y="80" width="24" height="16" fill="#494e52"/>
-  <path d="M54 80v16M60 80v16M66 80v16" stroke="#fff" stroke-width="2"/>
+  <!-- portail -->
+  <rect x="62" y="82" width="22" height="16" fill="#494e52"/>
+  <path d="M67 82v16M73 82v16M79 82v16" stroke="#fff" stroke-width="2"/>
+  <!-- sol -->
+  <path d="M14 98h92" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
 </svg>

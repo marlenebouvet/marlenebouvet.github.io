@@ -4,6 +4,7 @@ collection: publications
 toc_ref: "*Rhizome*, 2024"
 category: other
 permalink: /publication/rhizome-anxiete-de-performance
+image: "../images/rhizome-90-91.png"
 
 authors: "Marlène Bouvet"
 venue: "Rhizome, 2024/2 (n° 90-91)"
