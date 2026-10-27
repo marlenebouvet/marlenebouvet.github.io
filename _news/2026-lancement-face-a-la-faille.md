@@ -6,6 +6,8 @@ logo: /images/logos/face-a-la-faille.png
 logo_alt: "Humans Behind Vulnerability Research - Call for participation"
 show: true
 ---
+Lancement de l'**enquête sociologique « Face à la faille / Humans Behind Vulnerability Research »**, destinée aux **chercheuses et chercheurs de vulnérabilités informatiques**, de tous profils et de toutes nationalités.
+
 <div style="display: flex; flex-wrap: wrap; gap: 1.6em; margin: 1.2em 0">
   <div style="flex: 1 1 300px; max-width: 390px">
     <p style="text-align: left; margin-top: 0"><strong>Version française</strong> : « Face à la faille. Qui sont les chercheurs et chercheuses de vulnérabilités ? »</p>
