@@ -7,7 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
- ***Docteure en sociologie rattachée à l'Ecole Normale Supérieure de Lyon, Equipe DPCS (Dispositions, Pouvoirs, Cultures et Socialisations), Centre Max Weber. Je suis également enseignante vacataire à l'Université Paris-Saclay (Master Santé publique) et l'Université Lyon 2 (Master Santé et vieillissement).***
+***Docteure en sociologie.***
+
+- ***[Post-doctorante](https://sociosante.hypotheses.org/8067) au sein de la chaire « Soins algorithmiques » (AlgoCare) - Laboratoire PACTE - Université Grenoble Alpes***
+- ***Chargée d'enquête pour l'équipe de l'ANR REV (Recherche et Exploitation des Vulnérabilités) - Volet sociologique du projet, présenté ici en [anglais](https://rev.s3.eurecom.fr/) et [français](https://www.pepr-cybersecurite.fr/projet/rev/)***
+- ***Associée au Centre Max Weber - ENS Lyon***
 
 
 ## Thèmes de recherche
