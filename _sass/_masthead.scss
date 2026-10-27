@@ -56,3 +56,36 @@
     font-weight: 700;
   }
 }
+
+/* Top bar: bolder, darker, red rule, underline on hover */
+.masthead {
+  border-bottom: 4px solid #a11828;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
+}
+
+.masthead .greedy-nav a {
+  margin: 0 0.7rem;
+  color: #10151a;
+  font-weight: 800;
+  letter-spacing: 0;
+  background: linear-gradient(#a11828, #a11828) no-repeat 0 100% / 0 3px;
+  transition: color 0.15s ease, background-size 0.25s ease;
+
+  &:hover,
+  &.is-active {
+    color: #a11828;
+    background-size: 100% 3px;
+  }
+}
+
+.masthead .greedy-nav .masthead__menu-item--lg a {
+  margin-left: 0;
+  color: #a11828;
+  font-weight: 900;
+  font-size: 1.12em;
+  background-size: 0 3px;
+
+  &:hover {
+    color: #10151a;
+  }
+}
