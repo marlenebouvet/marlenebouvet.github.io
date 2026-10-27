@@ -3,6 +3,7 @@ title: "La « biologisation bienveillante » des déprimé•es en clinique priv
 collection: publications
 category: chapters
 permalink: /publication/biologisation
+image: "../images/biologisation.png"
 
 authors: "Marlène Bouvet"
 venue: "Biologisation(s). Les usages sociaux de l‘argument biologique en santé, dirigé par Laurine Thizy, Justine Vincent, Sinem Gunes, Irem Nihan Balci, coll. « Sociétés, Espaces, Temps »"
