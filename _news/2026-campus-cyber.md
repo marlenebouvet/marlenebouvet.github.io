@@ -1,6 +1,7 @@
 ---
 date: 2026-07-01
 title: "Intervention à Campus Cyber, réunion de l'ANR REV"
+logo_kind: lieu
 logo: /images/logos/campus-cyber.png
 logo_alt: "Campus Cyber"
 show: true
