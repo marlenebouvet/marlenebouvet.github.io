@@ -16,7 +16,7 @@ layout: default
     {% for post in site.news reversed %}
       {% if post.show %}
         {% unless title_shown %}
-          <h2 class="page__title" style="color: #a11828">Actualités</h2>
+          <h2 class="page__title" style="color: #a11828; text-align: center; font-size: 2.4em; margin-bottom: 0.8em">Actualités</h2>
           {% assign title_shown = true %}
         {% endunless %}
         {% include archive-single-news.html %}

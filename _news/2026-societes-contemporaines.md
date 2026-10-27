@@ -1,6 +1,6 @@
 ---
 date: 2026-07-01
-title: "Nouvel article dans Sociétés contemporaines : « Avoir un “bon feeling” dans la thérapie, une question de proximité sociale ? »"
+title: "Nouvel article dans *Sociétés contemporaines* : « Avoir un “bon feeling” dans la thérapie, une question de proximité sociale ? »"
 logo: /images/societes-contemporaines.png
 logo_alt: "Sociétés contemporaines"
 show: true
