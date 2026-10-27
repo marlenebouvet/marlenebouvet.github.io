@@ -13,10 +13,10 @@
   <!-- pièce de droite : enfant -->
   <circle cx="88" cy="80" r="5.5" fill="#fff"/>
   <path d="M80.5 98v-7a7.5 7.5 0 0 1 15 0v7z" fill="#fff"/>
-  <!-- la femme dans l'encadrement de la porte -->
+  <!-- la femme (en pantalon) dans l'encadrement de la porte -->
   <circle cx="60" cy="58" r="6.5" fill="#fff"/>
   <circle cx="55.5" cy="53" r="3.6" fill="#fff"/>
-  <path d="M60 65.5c-5 0-8 4.5-9 10.5l-2.5 16h23l-2.5-16c-1-6-4-10.5-9-10.5z" fill="#fff"/>
-  <path d="M55.5 92v6M64.5 92v6" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M65 72l7 5" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M51.5 70c3-3 14-3 17 0l-1 17H52.5z" fill="#fff"/>
+  <path d="M55 85v13M65 85v13" stroke="#fff" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M68 72l6 5" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/>
 </svg>
