@@ -4,6 +4,7 @@ collection: publications
 toc_ref: "*Emulations*, 2018"
 category: articles
 permalink: /publication/quants
+image: "../images/emulations-25.png"
 
 authors: "Marlène Bouvet"
 venue: 'Emulations - Revue de sciences sociales, numéro "Des dispositions au travail. L’origine sociale des pratiques professionnelles", coordonné par David Pichonnaz et Kevin Toffel.'
