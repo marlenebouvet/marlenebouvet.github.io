@@ -9,19 +9,19 @@ main:
     url: /publications/
 
   - title: "Communications"
-    url: /talks/    
+    url: /talks/
 
-  - title: "Blog & Recensions"
-    url: /year-archive/
+  - title: "CV"
+    url: /cv/
 
   - title: "Portfolio d'enseignement"
     url: /teaching/
+
+  - title: "Blog & Recensions"
+    url: /year-archive/
 
   - title: "Évènements"
     url: /events/
 
   - title: "Responsabilités"
     url: /responsibilities/
-
-  - title: "CV"
-    url: /cv/
