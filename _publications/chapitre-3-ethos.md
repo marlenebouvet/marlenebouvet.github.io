@@ -1,6 +1,7 @@
 ---
 title: "Ethos professionnel"
 collection: publications
+toc_ref: "in *Sociologie du travail et des professions*, Armand Colin, 2026"
 category: chapters
 permalink: /publication/chapitre-ethos
 image: "../images/sociologie-travail-professions.png"

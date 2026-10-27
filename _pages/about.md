@@ -29,7 +29,7 @@ Je suis spécialisée dans l'**approche biographique des pratiques culturelles, 
 
 ## Méthodes
 
-- **Approche par l’immersion ethnographique** : monographie, observations, comparaison
+- **Immersion ethnographique** : monographie, observations, comparaison
 - **Entretiens** : semi-dirigés, libres, collectifs. Face à face, visio, par téléphone.
 - **Questionnaires**
 - **Exploitation secondaire de bases de données** (dossiers administratifs)

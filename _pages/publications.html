@@ -11,8 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Liste</h2>
-<p style="font-size: 0.8em"><strong>cliquez pour accéder aux résumés et à la référence bibliographique</strong></p>
+<p style="font-size: 1.1em; font-style: italic"><strong>Cliquer pour accéder aux résumés et à la référence bibliographique</strong></p>
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign title_shown = false %}
@@ -25,7 +24,8 @@ author_profile: true
         <ul style="margin-top: 0">
         {% assign title_shown = true %}
       {% endunless %}
-      <li><a href="{{ base_path }}{{ post.url }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a></li>
+      {% assign toc_title = post.title | replace: "« ", "“" | replace: " »", "”" | replace: "«", "“" | replace: "»", "”" %}
+      <li style="font-size: 1.1em; font-weight: bold"><a href="{{ base_path }}{{ post.url }}">{% if post.category == 'books' %}<em>{{ toc_title }}</em>{% else %}«&nbsp;{{ toc_title }}&nbsp;»{% endif %}{% if post.toc_ref %}, {{ post.toc_ref | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}</a></li>
     {% endfor %}
     {% if title_shown %}</ul>{% endif %}
   {% endfor %}

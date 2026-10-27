@@ -1,6 +1,7 @@
 ---
 title: "Illusio professionnelle"
 collection: publications
+toc_ref: "in *Sociologie du travail et des professions*, Armand Colin, 2026"
 category: chapters
 permalink: /publication/chapitre-illusio
 

@@ -1,6 +1,7 @@
 ---
 title: "Catégoriser : lexique de la construction sociale des différences"
 collection: publications
+toc_ref: "ENS Éditions, 2024"
 category: books
 permalink: /publication/categoriser
 authors: "Marlène Bouvet, Florent Chossière, Marine Duc, Estelle Fisson"

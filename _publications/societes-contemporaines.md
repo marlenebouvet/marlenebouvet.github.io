@@ -1,6 +1,7 @@
 ---
 title: "Avoir un « bon feeling » dans la thérapie, une question de proximité sociale ? Les conditions sociales du réenchantement des déprimé·es en clinique privée"
 collection: publications
+toc_ref: "*Sociétés contemporaines*, 2025 (publication réelle en juillet 2026)"
 category: articles
 permalink: /publication/societes-contemporaines
 image: "../images/societes-contemporaines.png"

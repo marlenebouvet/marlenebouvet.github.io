@@ -1,6 +1,7 @@
 ---
 title: "Du « matheux » bourgeois au « Quant » corporate. Les héritiers des classes supérieures scientifiques à l’épreuve de la finance londonienne"
 collection: publications
+toc_ref: "*Emulations*, 2018"
 category: articles
 permalink: /publication/quants
 

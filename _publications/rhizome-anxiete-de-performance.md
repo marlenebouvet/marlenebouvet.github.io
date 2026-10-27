@@ -1,6 +1,7 @@
 ---
 title: "L'anxiété de performance, un problème de cadres ?"
 collection: publications
+toc_ref: "*Rhizome*, 2024"
 category: other
 permalink: /publication/rhizome-anxiete-de-performance
 

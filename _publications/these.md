@@ -1,6 +1,7 @@
 ---
 title: "Réenchanter les déprimé.es. Sociologie de la thérapie en clinique privée"
 collection: publications
+toc_ref: "thèse de doctorat, ENS de Lyon, 2023"
 category: thesis
 permalink: /publication/these
 
