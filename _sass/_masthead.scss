@@ -57,16 +57,27 @@
   }
 }
 
-/* Top bar: bolder, darker, red rule, underline on hover */
+/* Top bar: bolder, darker, double rule (red + thin dark), small caps */
 .masthead {
   border-bottom: 4px solid #a11828;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -9px;
+    height: 1px;
+    background: #10151a;
+  }
 }
 
 .masthead .greedy-nav a {
-  margin: 0 0.7rem;
+  margin: 0 0.5rem;
   color: #10151a;
   font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 0.93em;
   letter-spacing: 0;
   background: linear-gradient(#a11828, #a11828) no-repeat 0 100% / 0 3px;
   transition: color 0.15s ease, background-size 0.25s ease;
@@ -82,7 +93,9 @@
   margin-left: 0;
   color: #a11828;
   font-weight: 900;
+  font-variant-caps: normal;
   font-size: 1.12em;
+  letter-spacing: 0;
   background-size: 0 3px;
 
   &:hover {
