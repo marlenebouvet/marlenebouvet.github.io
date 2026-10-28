@@ -1,0 +1,32 @@
+# Blocs de la rubrique « Portfolio d'enseignement » (du plus récent au plus ancien).
+# « key » correspond au champ « group » des fiches de cours (_portfolio/).
+- key: Various
+  url: /teaching/various
+  role: "Enseignements divers"
+  name: "Lyon 2, Paris-Saclay et autres"
+  years: "2023 - 2025"
+  logos: [lyon-2]
+- key: ClermontAuvergne
+  url: /teaching/clermont
+  role: "A.T.E.R."
+  name: "Université Clermont Auvergne"
+  years: "2021 - 2023"
+  logos: [uca]
+- key: Lyon2
+  url: /teaching/lyon2
+  role: "A.T.E.R."
+  name: "Université Lyon 2"
+  years: "2019 - 2020"
+  logos: [lyon-2]
+- key: ATERdauphine
+  url: /teaching/dauphine
+  role: "A.T.E.R."
+  name: "Université Paris Dauphine"
+  years: "2019 - 2020"
+  logos: [paris-dauphine]
+- key: ENSLyon
+  url: /teaching/ens
+  role: "Monitorat"
+  name: "ENS de Lyon"
+  years: "2015 - 2018"
+  logos: [ens-lyon]

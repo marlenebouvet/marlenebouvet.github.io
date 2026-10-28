@@ -6,50 +6,28 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% include teaching-style.html %}
 
-<style>
-  .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 10px;
-  padding: 10px;
-}
+{% assign total_n = 0 %}
+{% assign total_h = 0 %}
+{% for c in site.portfolio %}{% if c.group %}{% assign total_n = total_n | plus: 1 %}{% assign total_h = total_h | plus: c.hours %}{% endif %}{% endfor %}
 
-.grid-container > div {
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
-}
+<div class="teach-stats">
+  <div><strong>{{ total_n }}</strong><span>enseignements</span></div>
+  <div><strong>{{ total_h }}&nbsp;h</strong><span>d'enseignement</span></div>
+  <div><strong>{{ site.data.teaching | size }}</strong><span>établissements</span></div>
+</div>
 
-.item1 {
-  grid-column: 1;
-  grid-row: 1;  
-}
-
-.item2 {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.item3 {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-.item4 {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.item5 {
-  grid-column: 1 / span 2;
-}
-</style>
-
-<div class="grid-container">
-  <div class="item1"><a href="ens"><img src="../images/teaching-ens.png" style="width:250px;height:250px;" /></a></div>
-  <div class="item2"><a href="dauphine"><img src="../images/teaching-dauphine.png" style="width:250px;height:250px;" /></a></div>
-  <div class="item5"><a href="various"><img src="../images/teaching-divers.png" style="width:250px;height:250px;" /></a></div>  
-  <div class="item4"><a href="clermont"><img src="../images/teaching-clermont.png" style="width:250px;height:250px;" /></a></div>
-  <div class="item3"><a href="lyon2"><img src="../images/teaching-lyon2.png" style="width:250px;height:250px;" /></a></div>
+<div class="teach-grid">
+{% for g in site.data.teaching %}
+  {% assign n = 0 %}{% assign h = 0 %}
+  {% for c in site.portfolio %}{% if c.group == g.key %}{% assign n = n | plus: 1 %}{% assign h = h | plus: c.hours %}{% endif %}{% endfor %}
+  <a class="teach-card" href="{{ g.url }}">
+    <div class="teach-card__top"><span class="teach-role">{{ g.role }}</span><span class="teach-years">{{ g.years }}</span></div>
+    <div class="teach-name">{{ g.name }}</div>
+    <div class="teach-logos">{% for l in g.logos %}{% include cv-logo.html name=l height="3.4em" width="9em" %}{% endfor %}</div>
+    <div class="teach-meta">{{ n }}&nbsp;{% if n == 1 %}enseignement{% else %}enseignements{% endif %} · {{ h }}&nbsp;h</div>
+    <div class="teach-go">Voir les enseignements →</div>
+  </a>
+{% endfor %}
 </div>

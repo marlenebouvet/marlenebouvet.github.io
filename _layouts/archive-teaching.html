@@ -21,12 +21,40 @@ layout: default
     {% endunless %}
 
     
+    {% include teaching-style.html %}
+    {% capture nl %}
+{% endcapture %}
+    {% for g in site.data.teaching %}{% if g.key == page.group %}{% assign grp = g %}{% endif %}{% endfor %}
+    {% assign n = 0 %}{% assign h = 0 %}
+    {% for c in site.portfolio %}{% if c.group == page.group %}{% assign n = n | plus: 1 %}{% assign h = h | plus: c.hours %}{% endif %}{% endfor %}
+
+    <a class="teach-back" href="{{ base_path }}/teaching/">← Portfolio d'enseignement</a>
+
+    <div class="teach-head">
+      <div>
+        <div class="teach-role">{{ grp.role }} · {{ grp.years }}</div>
+        <div class="teach-name">{{ grp.name }}</div>
+        <div class="teach-meta">{{ n }}&nbsp;{% if n == 1 %}enseignement{% else %}enseignements{% endif %} · {{ h }}&nbsp;h</div>
+      </div>
+      <div class="teach-logos">{% for l in grp.logos %}{% include cv-logo.html name=l height="3.6em" width="9em" %}{% endfor %}</div>
+    </div>
+
+    <div class="teach-courses">
     {% for post in site.portfolio reversed %}
       {% if post.group and post.group == page.group %}
-        {% include archive-single-teaching.html %}
+      <article class="teach-course">
+        <div class="teach-badge">{{ post.category }}</div>
+        <div class="teach-course__body">
+          <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title | strip }}</a></h3>
+          <div class="teach-place">{{ post.curriculum }}{% if post.venue %} · {{ post.venue }}{% endif %}</div>
+          <div class="teach-chips">{% if post.level %}<span>{{ post.level }}</span>{% endif %}{% if post.hours %}<span>{{ post.hours }}&nbsp;h</span>{% endif %}{% if post.period %}<span>{{ post.period }}</span>{% endif %}</div>
+          <div class="teach-excerpt">{{ post.content | strip | split: nl | first | markdownify | strip_html | strip | truncate: 300 }}</div>
+          <a class="teach-more" href="{{ base_path }}{{ post.url }}">Voir le détail →</a>
+        </div>
+      </article>
       {% endif %}
     {% endfor %}
-    
+    </div>
 
   </div>
 </div>

@@ -1,0 +1,43 @@
+<style>
+  .teach-stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.2em 3.2em; margin: 1.2em 0 2.2em; }
+  .teach-stats div { text-align: center; }
+  .teach-stats strong { display: block; color: #a11828; font-size: 2.6em; font-weight: 800; line-height: 1.05; }
+  .teach-stats span { display: block; margin-top: 0.2em; color: #494e52; font-weight: 700; font-size: 1.05em; letter-spacing: 0.02em; }
+
+  .teach-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.3em; margin-bottom: 2.4em; }
+  .teach-card { position: relative; display: flex; flex-direction: column; gap: 0.45em; padding: 1.1em 1.3em 1.2em; background: #f3f6f9; border-left: 5px solid #1a5a85; border-radius: 0 12px 12px 0; box-shadow: 0 2px 8px rgba(26, 90, 133, 0.12); text-decoration: none !important; color: #494e52; transition: transform .15s ease, box-shadow .15s ease; }
+  .teach-card:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(26, 90, 133, 0.22); }
+  .teach-card__top { display: flex; justify-content: space-between; align-items: baseline; gap: 1em; }
+  .teach-role { color: #a11828; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.95em; }
+  .teach-years { color: #a11828; font-weight: 800; font-size: 1.05em; }
+  .teach-name { color: #1a5a85; font-weight: 800; font-size: 1.45em; line-height: 1.2; }
+  .teach-logos { min-height: 3.6em; display: flex; align-items: center; justify-content: flex-start; gap: 1em; margin: 0.3em 0; }
+  .teach-logos img { max-height: 3.4em !important; max-width: 9em !important; mix-blend-mode: multiply; }
+  .teach-meta { font-weight: 700; color: #494e52; }
+  .teach-go { margin-top: auto; padding-top: 0.5em; color: #a11828; font-weight: 800; }
+
+  .teach-back { display: inline-block; margin: 0 0 1.2em; font-weight: 800; color: #a11828; text-decoration: none; }
+  .teach-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1em 2em; padding: 1.1em 1.4em; margin-bottom: 1.8em; border-left: 5px solid #a11828; background: #f3f6f9; border-radius: 0 12px 12px 0; }
+  .teach-head .teach-name { font-size: 1.6em; }
+  .teach-head .teach-logos { margin: 0; }
+  .teach-courses { display: flex; flex-direction: column; gap: 1.2em; margin-bottom: 2.4em; }
+  .teach-course { display: flex; gap: 1.1em; align-items: flex-start; padding: 1em 1.3em 1.1em 1em; background: #f3f6f9; border-left: 5px solid #1a5a85; border-radius: 0 12px 12px 0; box-shadow: 0 2px 8px rgba(26, 90, 133, 0.12); transition: transform .15s ease, box-shadow .15s ease; }
+  .teach-course:hover { transform: translateX(4px); box-shadow: 0 4px 14px rgba(26, 90, 133, 0.22); }
+  .teach-badge { flex: 0 0 3.4em; width: 3.4em; height: 3.4em; display: flex; align-items: center; justify-content: center; background: #a11828; color: #fff; font-weight: 800; font-size: 1.25em; border-radius: 10px; }
+  .teach-course__body { min-width: 0; }
+  .teach-course h3 { margin: 0 0 0.15em; font-size: 1.4em; line-height: 1.25; }
+  .teach-course h3 a { color: #1a5a85; font-weight: 800; text-decoration: none; }
+  .teach-course h3 a:hover { color: #0f3d5c; text-decoration: underline; }
+  .teach-place { font-weight: 700; color: #494e52; margin-bottom: 0.5em; }
+  .teach-chips { display: flex; flex-wrap: wrap; gap: 0.5em; margin-bottom: 0.7em; }
+  .teach-chips span { padding: 0.12em 0.7em; border: 2px solid #111; border-radius: 4px; font-weight: 800; font-size: 0.95em; background: #fff; }
+  .teach-excerpt { color: #494e52; line-height: 1.5; }
+  .teach-more { display: inline-block; margin-top: 0.5em; color: #a11828; font-weight: 800; text-decoration: none; }
+  .teach-more:hover { text-decoration: underline; }
+  @media (max-width: 700px) { .teach-badge { display: none; } }
+  .teach-detail { margin-top: 1.4em; }
+  .teach-detail p { font-size: 1.12em; line-height: 1.55; }
+  .teach-detail ul { list-style: none; margin: 0.6em 0 1.4em; padding: 0; }
+  .teach-detail li { position: relative; padding-left: 1.8em; margin: 0.5em 0; font-size: 1.12em; line-height: 1.5; font-weight: 700; }
+  .teach-detail li::before { content: "\2192"; position: absolute; left: 0; color: #a11828; font-weight: 800; }
+</style>

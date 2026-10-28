@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{% include teaching-style.html %}
+{% for g in site.data.teaching %}{% if g.key == page.group %}{% assign grp = g %}{% endif %}{% endfor %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="page__inner-wrap">
+      <a class="teach-back" href="{{ base_path }}{{ grp.url | default: '/teaching/' }}">← {{ grp.role }} · {{ grp.name }}</a>
+
+      <header>
+        <h1 class="page__title" itemprop="headline">{{ page.title | strip }}</h1>
+        <div class="teach-place">{{ page.curriculum }}{% if page.venue %} · {{ page.venue }}{% endif %}</div>
+        <div class="teach-chips">{% if page.category %}<span>{{ page.category }}</span>{% endif %}{% if page.level %}<span>{{ page.level }}</span>{% endif %}{% if page.hours %}<span>{{ page.hours }}&nbsp;h</span>{% endif %}{% if page.period %}<span>{{ page.period }}</span>{% endif %}</div>
+      </header>
+
+      <section class="page__content teach-detail" itemprop="text">
+        {{ content | markdownify }}
+      </section>
+    </div>
+  </article>
+</div>
