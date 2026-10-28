@@ -22,7 +22,7 @@ redirect_from:
   .cv-text { flex: 1 1 auto; min-width: 0; }
   .cv-title { color: #1a5a85; font-weight: 800; font-size: 1.5em; line-height: 1.2; }
   .cv-place { margin-top: 0.25em; font-weight: 700; font-size: 1.1em; color: #494e52; }
-  .cv-right { flex: 0 0 auto; display: flex; flex-direction: column; gap: 0.6em; align-items: flex-end; justify-content: center; }
+  .cv-right { flex: 0 0 auto; display: flex; flex-direction: column; gap: 0.6em; align-items: center; justify-content: center; }
   .cv-right:has(img:nth-child(3)) img { max-height: 3em; }
   .cv-right img { max-height: 4em; max-width: 12em; width: auto; height: auto; object-fit: contain; mix-blend-mode: multiply; }
   @media (max-width: 700px) { .cv-body { margin-left: 1em; } .cv-date { flex-basis: 5.6em; font-size: 1.15em; } .cv-right { display: none; } }
