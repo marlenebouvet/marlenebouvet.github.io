@@ -6,22 +6,6 @@ author_profile: true
 ---
 
 {% include base_path %}
-{% assign to_prepare = site.events | where: "a_preparer", true | sort: "date" %}
-{% if to_prepare.size > 0 %}
-<h2>À préparer</h2>
-{% for post in to_prepare %}
-    {% include archive-single.html %}
-{% endfor %}
-{% endif %}
-{% assign upcoming = site.events | where_exp: "e", "e.date > site.time and e.a_preparer != true" | sort: "date" %}
-{% if upcoming.size > 0 %}
-<h2>À venir</h2>
-{% for post in upcoming %}
-    {% include archive-single.html %}
-{% endfor %}
-<h2>Passés</h2>
-{% endif %}
-{% assign past = site.events | where_exp: "e", "e.date <= site.time and e.a_preparer != true" | sort: "date" | reverse %}
-{% for post in past %}
+{% for post in site.events reversed %}
     {% include archive-single.html %}
 {% endfor %}
