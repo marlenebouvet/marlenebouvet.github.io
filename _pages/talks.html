@@ -38,9 +38,9 @@ author_profile: true
       {% endif %}
       {% assign toc_title = toc_title | replace: "« ", "“" | replace: " »", "”" | replace: "«", "“" | replace: "»", "”" %}
       {% assign toc_month = post.date | date: "%-m" | minus: 1 %}
-      <li style="font-size: 1.1em; font-weight: bold; display: flex; align-items: flex-start; gap: 0.6em; margin: 1em 0; padding: 0; line-height: 1.35">
+      <li style="font-size: 1.1em; font-weight: bold; display: flex; align-items: flex-start; gap: 0.6em; margin: 1.6em 0; padding: 0; line-height: 1.35">
         <img src="/images/icons/megaphone.svg" alt="" style="flex: 0 0 1.3em; width: 1.3em; height: 1.3em; margin-top: 0.05em">
-        <a href="#talk-{{ post.relative_path | slugify: 'latin' }}"><span class="talk-title">«&nbsp;{{ toc_title }}&nbsp;»</span>{% if post.venue %}, <em>{{ post.venue }}</em>{% elsif post.type %}, {{ post.type }}{% endif %}, {{ mois[toc_month] }} {{ post.date | date: "%Y" }}</a>
+        <a href="#talk-{{ post.relative_path | slugify: 'latin' }}"><span class="talk-title">«&nbsp;{{ toc_title }}&nbsp;»</span><br>{% if post.venue %}<em>{{ post.venue }}</em>, {% elsif post.type %}{{ post.type }}, {% endif %}{{ mois[toc_month] }} {{ post.date | date: "%Y" }}</a>
       </li>
     {% endfor %}
     {% if title_shown %}</ul>{% endif %}
