@@ -36,7 +36,7 @@ En tant que docteure en sociologie, j'investigue plusieurs thématiques, de faç
 </div>
 <div style="display: flex; align-items: center; gap: 1.3em; margin: 1em 0">
   <img src="/images/icons/theme-numerique.svg" alt="Un hacker éthique à lunettes et une médecin casquée avec un smartphone, devant quatre écrans" style="flex: 0 0 4.8em; width: 4.8em; height: 4.8em">
-  <p style="margin: 0"><strong>Sociologie du numérique</strong> : pratiques et profils des <strong>chercheur·ses de vulnérabilités informatiques</strong>, usages de l’<strong>IA</strong> dans la prise de décision en santé</p>
+  <p style="margin: 0"><strong>Sociologie du numérique</strong> : pratiques et profils des <strong>chercheur·ses de vulnérabilités informatiques</strong>, usages de l’<strong>intelligence artificielle</strong> dans la prise de décision en santé</p>
 </div>
 <div style="display: flex; align-items: center; gap: 1.3em; margin: 1em 0">
   <img src="/images/icons/theme-travail.svg" alt="Un professionnel au casque de chantier, en blouse avec stéthoscope, tenant un marteau" style="flex: 0 0 4.8em; width: 4.8em; height: 4.8em">
@@ -55,6 +55,7 @@ En tant que docteure en sociologie, j'investigue plusieurs thématiques, de faç
 
 <ul class="specialites">
   <li>Approche biographique des pratiques culturelles, professionnelles et médicales</li>
+  <li>Processus d’appropriation des outils d’IA et autres dispositifs sociotechniques</li>
   <li>Socialisation, dispositions notamment affectives</li>
   <li>Articulation des rapports sociaux (classe, genre, handicap, appartenance socio-ethnique, âge)</li>
   <li>Inégalités sociales</li>
