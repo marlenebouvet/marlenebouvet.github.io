@@ -6,10 +6,8 @@
   <circle cx="50" cy="31" r="2.6" fill="#a11828"/><circle cx="60" cy="31" r="2.6" fill="#a11828"/><circle cx="70" cy="31" r="2.6" fill="#a11828"/>
   <!-- personnage gauche -->
   <circle cx="34" cy="62" r="11" fill="#fff"/>
-  <path d="M40 60a5 5 0 0 1 0 5" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
   <path d="M18 100v-9a15 15 0 0 1 15-15h6a14 14 0 0 1 14 14v10z" fill="#fff"/>
   <!-- personnage droit -->
   <circle cx="86" cy="62" r="11" fill="#fff"/>
-  <path d="M80 60a5 5 0 0 0 0 5" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
   <path d="M102 100v-9a15 15 0 0 0-15-15h-6a14 14 0 0 0-14 14v10z" fill="#fff"/>
 </svg>
