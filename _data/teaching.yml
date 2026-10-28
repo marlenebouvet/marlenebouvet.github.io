@@ -3,8 +3,8 @@
 - key: Various
   tile: /images/teaching-divers.png
   url: /teaching/various
-  role: "Enseignements divers"
-  name: "Lyon 2, Paris-Saclay et autres"
+  role: "Enseignements"
+  name: "Paris Saclay, Lyon 2, prépa BL"
   years: "2023 - 2026"
   logos: [lyon-2]
 - key: ClermontAuvergne
