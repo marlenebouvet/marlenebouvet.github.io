@@ -9,13 +9,13 @@ redirect_from:
 ---
 <style>
   .page p, .page li { font-size: 1.12em; }
-  img[src^="/images/icons/theme-"] { opacity: 0.8; }
+  img[src^="/images/icons/theme-"] { opacity: 1; }
   .specialites { list-style: none; margin: 0.4em 0 0 4.2rem; padding: 0; column-count: 2; column-gap: 2.2em; }
   .specialites li { position: relative; margin: 0; padding: 0.22em 0 0.22em 1.7em; line-height: 1.45; font-weight: 700; break-inside: avoid; }
   .specialites li::before { content: "\2192"; position: absolute; left: 0; top: 0.14em; color: #a11828; font-weight: 800; font-size: 1.15em; }
   .methodes { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1em; margin: 1.2em 0 1.5em 0; }
   .methode { border: 2px solid #111; padding: 1em 0.85em 0.9em; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0.8em; font-size: 1.05em; line-height: 1.35; }
-  .methode img { width: 3.6em; height: 3.6em; margin-top: auto; opacity: 0.35; }
+  .methode img { width: 3.6em; height: 3.6em; margin-top: auto; opacity: 0.85; }
   .methode b { display: block; font-size: 1.08em; }
 </style>
 

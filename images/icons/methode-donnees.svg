@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Exploitation de bases de données">
-  <rect width="64" height="64" rx="14" fill="#b04e32"/>
+  <rect width="64" height="64" rx="14" fill="#a11828"/>
   <ellipse cx="32" cy="17" rx="17" ry="6.500" fill="#fff"/>
   <path d="M15 22v10c0 3.600 7.600 6.500 17 6.500S49 35.600 49 32V22c0 3.600-7.600 6.500-17 6.500S15 25.600 15 22z" fill="#fff"/>
   <path d="M15 36v10c0 3.600 7.600 6.500 17 6.500S49 49.600 49 46V36c0 3.600-7.600 6.500-17 6.500S15 39.600 15 36z" fill="#fff"/>

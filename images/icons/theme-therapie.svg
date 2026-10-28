@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Deux personnages face à face">
-  <rect x="4" y="4" width="112" height="112" rx="18" fill="#52adc8"/>
+  <rect x="4" y="4" width="112" height="112" rx="18" fill="#111111"/>
   <rect x="11" y="11" width="98" height="98" rx="12" fill="none" stroke="#fff" stroke-width="2.5"/>
   <!-- bulle de parole -->
   <path d="M44 20h32a7 7 0 0 1 7 7v8a7 7 0 0 1-7 7H64l-8 8v-8H44a7 7 0 0 1-7-7v-8a7 7 0 0 1 7-7z" fill="#fff"/>
-  <circle cx="50" cy="31" r="2.6" fill="#52adc8"/><circle cx="60" cy="31" r="2.6" fill="#52adc8"/><circle cx="70" cy="31" r="2.6" fill="#52adc8"/>
+  <circle cx="50" cy="31" r="2.6" fill="#a11828"/><circle cx="60" cy="31" r="2.6" fill="#a11828"/><circle cx="70" cy="31" r="2.6" fill="#a11828"/>
   <!-- personnage gauche -->
   <circle cx="34" cy="62" r="11" fill="#fff"/>
-  <path d="M40 60a5 5 0 0 1 0 5" fill="none" stroke="#52adc8" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M40 60a5 5 0 0 1 0 5" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
   <path d="M18 100v-9a15 15 0 0 1 15-15h6a14 14 0 0 1 14 14v10z" fill="#fff"/>
   <!-- personnage droit -->
   <circle cx="86" cy="62" r="11" fill="#fff"/>
-  <path d="M80 60a5 5 0 0 0 0 5" fill="none" stroke="#52adc8" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M80 60a5 5 0 0 0 0 5" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
   <path d="M102 100v-9a15 15 0 0 0-15-15h-6a14 14 0 0 0-14 14v10z" fill="#fff"/>
 </svg>

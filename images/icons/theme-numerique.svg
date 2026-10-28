@@ -1,47 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Un hacker éthique à lunettes et une médecin casquée avec un smartphone, devant quatre écrans">
-  <rect x="4" y="4" width="112" height="112" rx="18" fill="#5b4b8a"/>
+  <rect x="4" y="4" width="112" height="112" rx="18" fill="#111111"/>
   <rect x="11" y="11" width="98" height="98" rx="12" fill="none" stroke="#fff" stroke-width="2.5"/>
   <!-- quatre écrans -->
-  <g fill="#1f1a36" stroke="#fff" stroke-width="1.6">
+  <g fill="#111111" stroke="#fff" stroke-width="1.6">
     <rect x="15" y="18" width="20" height="16" rx="2"/>
     <rect x="38" y="18" width="20" height="16" rx="2"/>
     <rect x="62" y="18" width="20" height="16" rx="2"/>
     <rect x="85" y="18" width="20" height="16" rx="2"/>
   </g>
-  <path d="M19 23h8M19 27h12M19 31h6" fill="none" stroke="#8ee0a8" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M19 23h8M19 27h12M19 31h6" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
   <path d="M47 22.5h2v3h3v2h-3v3h-2v-3h-3v-2h3z" fill="#fff"/>
-  <path d="M65 31l4-5 4 3 5-8" fill="none" stroke="#f2c14e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M65 31l4-5 4 3 5-8" fill="none" stroke="#a11828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="91" y="26" width="8" height="6" rx="1" fill="#fff"/>
   <path d="M93 26v-2a2 2 0 0 1 4 0v2" fill="none" stroke="#fff" stroke-width="1.6"/>
 
   <!-- hacker éthique : sweat à capuche, lunettes, sourire -->
-  <path d="M16 100V86c0-9 8-14 20-14s20 5 20 14v14z" fill="#8f7fd0"/>
-  <path d="M30 72l6 9 6-9" fill="none" stroke="#5b4b8a" stroke-width="2"/>
+  <path d="M16 100V86c0-9 8-14 20-14s20 5 20 14v14z" fill="#a11828"/>
+  <path d="M30 72l6 9 6-9" fill="none" stroke="#111111" stroke-width="2"/>
   <path d="M33 80v8M39 80v8" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M22 62c0-11 6-18 14-18s14 7 14 18v8H22z" fill="#8f7fd0"/>
-  <ellipse cx="36" cy="63" rx="9.5" ry="10.5" fill="#ffe3d6"/>
-  <path d="M26.5 56c2-5 6-7 9.5-7s7.5 2 9.5 7c-3-2-6-3-9.5-3s-6.500 1-9.500 3z" fill="#5b4b8a"/>
-  <g fill="#fff" stroke="#1f1a36" stroke-width="1.8">
+  <path d="M22 62c0-11 6-18 14-18s14 7 14 18v8H22z" fill="#a11828"/>
+  <ellipse cx="36" cy="63" rx="9.5" ry="10.5" fill="#ffffff"/>
+  <path d="M26.5 56c2-5 6-7 9.5-7s7.5 2 9.5 7c-3-2-6-3-9.5-3s-6.500 1-9.500 3z" fill="#111111"/>
+  <g fill="#fff" stroke="#111111" stroke-width="1.8">
     <rect x="27.500" y="59.500" width="8" height="6.500" rx="2.200"/>
     <rect x="36.500" y="59.500" width="8" height="6.500" rx="2.200"/>
   </g>
-  <path d="M35.500 62.500h1" stroke="#1f1a36" stroke-width="1.8"/>
-  <circle cx="31.500" cy="63" r="1.300" fill="#1f1a36"/><circle cx="40.500" cy="63" r="1.300" fill="#1f1a36"/>
-  <path d="M32 69q4 3 8 0" fill="none" stroke="#1f1a36" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M35.500 62.500h1" stroke="#111111" stroke-width="1.8"/>
+  <circle cx="31.500" cy="63" r="1.300" fill="#111111"/><circle cx="40.500" cy="63" r="1.300" fill="#111111"/>
+  <path d="M32 69q4 3 8 0" fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round"/>
 
   <!-- médecin casquée avec smartphone -->
   <path d="M60 100V86c0-9 7-15 16-16l6 7 6-7c9 1 16 7 16 16v14z" fill="#fff"/>
-  <path d="M76 70l6 14 6-14" fill="none" stroke="#5b4b8a" stroke-width="2.2" stroke-linejoin="round"/>
-  <circle cx="82" cy="57" r="10" fill="#ffe3d6"/>
-  <path d="M71.500 55c1-6 5.500-9 10.500-9s9.500 3 10.500 9c-3-3-6.500-4-10.500-4s-7.500 1-10.500 4z" fill="#5b3a2e"/>
-  <path d="M70.500 57a11.500 12 0 0 1 23 0" fill="none" stroke="#f2c14e" stroke-width="3" stroke-linecap="round"/>
-  <rect x="67.500" y="54" width="5" height="9" rx="2.200" fill="#f2c14e"/>
-  <rect x="91.500" y="54" width="5" height="9" rx="2.200" fill="#f2c14e"/>
-  <path d="M71 63c0 5 3 7 7 7" fill="none" stroke="#f2c14e" stroke-width="1.600" stroke-linecap="round"/>
-  <circle cx="78.500" cy="58" r="1.100" fill="#1f1a36"/><circle cx="85.500" cy="58" r="1.100" fill="#1f1a36"/>
-  <path d="M79.500 62.500q2.500 2 5 0" fill="none" stroke="#1f1a36" stroke-width="1.3" stroke-linecap="round"/>
-  <rect x="91" y="76" width="9" height="16" rx="2" fill="#1f1a36" stroke="#fff" stroke-width="1.600"/>
-  <rect x="93" y="79" width="5" height="9" rx="1" fill="#8ee0a8"/>
+  <path d="M76 70l6 14 6-14" fill="none" stroke="#111111" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="82" cy="57" r="10" fill="#ffffff"/>
+  <path d="M71.500 55c1-6 5.500-9 10.500-9s9.500 3 10.500 9c-3-3-6.500-4-10.500-4s-7.500 1-10.500 4z" fill="#111111"/>
+  <path d="M70.500 57a11.500 12 0 0 1 23 0" fill="none" stroke="#a11828" stroke-width="3" stroke-linecap="round"/>
+  <rect x="67.500" y="54" width="5" height="9" rx="2.200" fill="#a11828"/>
+  <rect x="91.500" y="54" width="5" height="9" rx="2.200" fill="#a11828"/>
+  <path d="M71 63c0 5 3 7 7 7" fill="none" stroke="#a11828" stroke-width="1.600" stroke-linecap="round"/>
+  <circle cx="78.500" cy="58" r="1.100" fill="#111111"/><circle cx="85.500" cy="58" r="1.100" fill="#111111"/>
+  <path d="M79.500 62.500q2.500 2 5 0" fill="none" stroke="#111111" stroke-width="1.3" stroke-linecap="round"/>
+  <rect x="91" y="76" width="9" height="16" rx="2" fill="#111111" stroke="#fff" stroke-width="1.600"/>
+  <rect x="93" y="79" width="5" height="9" rx="1" fill="#ffffff"/>
   <path d="M88 84l4 2" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
   <path d="M14 100h92" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
 </svg>
