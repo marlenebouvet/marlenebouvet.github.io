@@ -6,7 +6,7 @@
   role: "Enseignements"
   name: "Paris Saclay, Lyon 2, prépa BL"
   years: "2023 - 2026"
-  logos: [lyon-2]
+  logos: [paris-saclay, lyon-2]
 - key: ClermontAuvergne
   tile: /images/teaching-clermont.png
   url: /teaching/clermont
