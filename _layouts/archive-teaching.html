@@ -56,5 +56,9 @@ layout: default
     {% endfor %}
     </div>
 
+    {% if grp.tile %}
+    <figure class="teach-illus"><img src="{{ base_path }}{{ grp.tile }}" alt="{{ grp.role }} - {{ grp.name }} ({{ grp.years }})"></figure>
+    {% endif %}
+
   </div>
 </div>
