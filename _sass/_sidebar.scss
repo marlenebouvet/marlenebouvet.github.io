@@ -270,7 +270,9 @@
   }
 
   .sidebar .author__avatar img {
-    max-width: 130px;
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
   }
 
   .sidebar .author__name {
